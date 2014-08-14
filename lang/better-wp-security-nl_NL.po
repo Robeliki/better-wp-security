@@ -1,0 +1,5046 @@
+# Copyright (C) 2014 iThemes Security
+# This file is distributed under the same license as the iThemes Security package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemes Security 4.3.7\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/forum/\n"
+"POT-Creation-Date: 2014-07-30 14:05:11+00:00\n"
+"PO-Revision-Date: 2014-08-14 22:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: Roland Lemminga <roland@robeliki.nl>\n"
+"Language-Team: Robeliki <roland@robeliki.nl>\n"
+"Language: nl\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#. Plugin Name of the plugin/theme
+#: better-wp-security.php:24
+msgid "iThemes Security"
+msgstr "iThemes Security"
+
+#: core/class-itsec-core.php:236
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:217
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:176
+msgid "Settings"
+msgstr "Instellingen"
+
+#: core/class-itsec-core.php:243
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: core/class-itsec-core.php:250
+msgid "Logs"
+msgstr "Logboeken"
+
+#: core/class-itsec-core.php:257
+#: modules/free/help/class-itsec-help-admin.php:19
+msgid "Help"
+msgstr "Help"
+
+#: core/class-itsec-core.php:268
+msgid "Pro"
+msgstr "Pro"
+
+#: core/class-itsec-core.php:280 core/class-itsec-core.php:291
+#: modules/free/backup/class-itsec-backup-admin.php:676
+msgid "Backups"
+msgstr "Backups"
+
+#: core/class-itsec-core.php:472 core/class-itsec-core.php:565
+#: core/class-itsec-core.php:861 core/class-itsec-core.php:1487
+#: core/class-itsec-core.php:1526
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: core/class-itsec-core.php:556 core/class-itsec-core.php:1488
+msgid "Security"
+msgstr "Security"
+
+#: core/class-itsec-core.php:705
+msgid "Dismiss"
+msgstr "Afwijzen"
+
+#: core/class-itsec-core.php:732 core/class-itsec-core.php:1571
+msgid "NGINX conf file and/or restart your NGINX server"
+msgstr "NGINX configuratie bestand en/of herstart je NGINX server"
+
+#: core/class-itsec-core.php:736 core/class-itsec-core.php:1575
+msgid ".htaccess file"
+msgstr ".htaccess bestand"
+
+#: core/class-itsec-core.php:742 core/class-itsec-core.php:1581
+msgid ""
+"As you have not allowed this plugin to update system files you must update "
+"your"
+msgstr ""
+"Omdat je deze plugin geen toestemming hebt gegeven om de systeem bestanden "
+"bij te werken, moet je bijwerken je"
+
+#: core/class-itsec-core.php:744 core/class-itsec-core.php:1583
+msgid ""
+"as well as your wp-config.php file manually. Rules to insert in both files "
+"can be found on the Dashboard page."
+msgstr ""
+"evenals uw wp-config.php bestand handmatig. Regels om te voegen in beide "
+"bestanden is te vinden op de Dashboard pagina."
+
+#: core/class-itsec-core.php:746
+msgid "Click here"
+msgstr "Klik Hier"
+
+#: core/class-itsec-core.php:747
+msgid "to allow this plugin to write to these files."
+msgstr ""
+"geeft toestemming voor deze plugin om te schrijven naar deze bestanden."
+
+#: core/class-itsec-core.php:754 core/class-itsec-core.php:1588
+#: core/class-itsec-files.php:120
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:227
+msgid "Settings Updated"
+msgstr "Instellingen bijgewerkt"
+
+#: core/class-itsec-core.php:821
+msgid "Show Intro"
+msgstr "Vertoon Intro"
+
+#: core/class-itsec-core.php:831
+msgid "Important First Steps"
+msgstr "Belangrijke Eerste Stappen"
+
+#: core/class-itsec-core.php:1313
+msgid "Secure Your Site"
+msgstr "Beveilig Je Site"
+
+#: core/class-itsec-core.php:1314
+msgid ""
+"Use the button below to enable default settings. This feature will enable "
+"all settings that cannot conflict with other plugins or themes."
+msgstr ""
+"Gebruik de onderste knop voor standaard instellingen. Met deze functie "
+"worden alle instellingen die niet kunnen conflicteren met andere plugins of "
+"thema's mogelijk gemaakt."
+
+#: core/class-itsec-core.php:1315
+msgid "One-Click Secure"
+msgstr "Een-Klik beveiliging"
+
+#: core/class-itsec-core.php:1317
+msgid ""
+"Site Secured. Check the dashboard for further suggestions on securing your "
+"site."
+msgstr ""
+"Site Beveiligd, Controleer de dashboard voor meer suggesties voor beveiligen "
+"van je site."
+
+#: core/class-itsec-core.php:1318
+msgid ""
+"Whoops. Something went wrong. Please contact support if the problem persists."
+msgstr ""
+"Oeps, iets is mis gegaan. Neem contact met ondersteuning op, als het "
+"probleem blijft bestaan."
+
+#: core/class-itsec-core.php:1399
+msgid "Return to top"
+msgstr "Terug naar boven"
+
+#: core/class-itsec-core.php:1704
+msgid "Thank you for activating"
+msgstr "Bedankt voor het activeren"
+
+#: core/class-itsec-core.php:1704
+msgid ""
+"It looks like you had another version of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+"Het lijkt erop, dat je een andere versie van deze plugin hebt geactiveerd. "
+"Om conflicten te voorkomen is de andere versie gedeactiveerd en we geven het "
+"advies om deze te verwijderen."
+
+#: core/class-itsec-dashboard-admin.php:31
+msgid "Security Status"
+msgstr "Beveiliging Status"
+
+#: core/class-itsec-dashboard-admin.php:40
+msgid "System Information"
+msgstr "Systeem Informatie"
+
+#: core/class-itsec-dashboard-admin.php:96
+msgid "All"
+msgstr "Alles"
+
+#: core/class-itsec-dashboard-admin.php:97
+msgid "High"
+msgstr "Hoog"
+
+#: core/class-itsec-dashboard-admin.php:98
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: core/class-itsec-dashboard-admin.php:99
+msgid "Low"
+msgstr "Laag"
+
+#: core/class-itsec-dashboard-admin.php:100
+#: core/class-itsec-dashboard-admin.php:188
+#: core/class-itsec-dashboard-admin.php:288
+msgid "Completed"
+msgstr "Afgerond"
+
+#: core/class-itsec-dashboard-admin.php:107
+#: core/class-itsec-dashboard-admin.php:122
+#: core/class-itsec-dashboard-admin.php:222
+#: core/class-itsec-dashboard-admin.php:237
+msgid "High Priority"
+msgstr "Hoge Prioriteit"
+
+#: core/class-itsec-dashboard-admin.php:108
+#: core/class-itsec-dashboard-admin.php:223
+msgid "These are items that should be secured immediately."
+msgstr "Deze punten zouden onmiddellijk moeten worden beveiligd."
+
+#: core/class-itsec-dashboard-admin.php:114
+#: core/class-itsec-dashboard-admin.php:141
+#: core/class-itsec-dashboard-admin.php:168
+#: core/class-itsec-dashboard-admin.php:229
+#: core/class-itsec-dashboard-admin.php:251
+#: core/class-itsec-dashboard-admin.php:273
+msgid "Fix it"
+msgstr "Los op"
+
+#: core/class-itsec-dashboard-admin.php:123
+#: core/class-itsec-dashboard-admin.php:238
+msgid "You have secured all High Priority items."
+msgstr "Je hebt alle Hoge Prioriteit punten beveiligd."
+
+#: core/class-itsec-dashboard-admin.php:134
+#: core/class-itsec-dashboard-admin.php:149
+#: core/class-itsec-dashboard-admin.php:244
+#: core/class-itsec-dashboard-admin.php:259
+msgid "Medium Priority"
+msgstr "Gemiddeld Prioriteit"
+
+#: core/class-itsec-dashboard-admin.php:135
+msgid ""
+"These are medium priority items that should be fixed if no conflicts are "
+"present, but they are not critical to the overall security of your site."
+msgstr ""
+"Dit zijn gemiddelde prioriteit punten die aangepast mogen als er geen "
+"conflicten zijn, maar deze zijn niet kritiek voor de gehele beveiliging van "
+"je site."
+
+#: core/class-itsec-dashboard-admin.php:150
+#: core/class-itsec-dashboard-admin.php:260
+msgid "You have secured all Medium Priority items."
+msgstr "Je hebt alle Gemiddelde Prioriteit punten beveiligd."
+
+#: core/class-itsec-dashboard-admin.php:161
+#: core/class-itsec-dashboard-admin.php:176
+#: core/class-itsec-dashboard-admin.php:266
+#: core/class-itsec-dashboard-admin.php:281
+msgid "Low Priority"
+msgstr "Lage Prioriteit"
+
+#: core/class-itsec-dashboard-admin.php:162
+msgid ""
+"These are low priority items that should be secured if, and only if, your "
+"plugins or theme do not conflict with their use."
+msgstr ""
+"Dit zijn lage prioriteit punten die beveiligd mogen worden, als, en alleen "
+"als, je plugins of thema geen conflicten hebben."
+
+#: core/class-itsec-dashboard-admin.php:177
+#: core/class-itsec-dashboard-admin.php:282
+msgid "You have secured all Low Priority items."
+msgstr "Je hebt alle Lage Prioriteit punten beveiligd."
+
+#: core/class-itsec-dashboard-admin.php:189
+msgid "These are items that you have successfully secured."
+msgstr "Dit zijn de punten die je succesvol hebt beveiligd."
+
+#: core/class-itsec-dashboard-admin.php:195
+#: core/class-itsec-dashboard-admin.php:201
+#: core/class-itsec-dashboard-admin.php:207
+#: core/class-itsec-dashboard-admin.php:295
+#: core/class-itsec-dashboard-admin.php:301
+#: core/class-itsec-dashboard-admin.php:307
+msgid "Edit"
+msgstr "Berwerk"
+
+#: core/class-itsec-dashboard-admin.php:245
+msgid ""
+"These are items that should be secured if possible however they are not "
+"critical to the overall security of your site."
+msgstr ""
+"Dit zijn de punten die als het mogelijk is beveiligd kunnen worden, maar ze "
+"zijn niet kritiek voor de totale beveiliging van je site."
+
+#: core/class-itsec-dashboard-admin.php:267
+msgid ""
+"These are items that should be secured if, and only if, your plugins or "
+"theme do not conflict with their use."
+msgstr ""
+"Dit zijn de punten die zouden beveiligd mogen worden, maar alleen, als je "
+"plug-ins of thema geen conflicten geven."
+
+#: core/class-itsec-dashboard-admin.php:289
+msgid "These are items that you have successfuly secured."
+msgstr "Dit zijn de punten dat je succesvol hebt beveiligd."
+
+#: core/class-itsec-files.php:71
+msgid "Rewrite Rules"
+msgstr "Herschrijf Regels"
+
+#: core/class-itsec-files.php:80
+msgid "wp-config.php Rules"
+msgstr "wp-config.php Regels"
+
+#: core/class-itsec-files.php:283 core/class-itsec-files.php:737
+msgid "There are no rules to write."
+msgstr "Er zijn geen regels om te schrijven."
+
+#: core/class-itsec-files.php:782
+msgid "Your rewrite rules have been saved to"
+msgstr "Je herbeschreven regels zijn opgeslagen in"
+
+#: core/class-itsec-files.php:784
+msgid "You must restart your NGINX server for the settings to take effect"
+msgstr ""
+"Je moet je NGINX server herstarten om de gewijzigde instellingen te laten "
+"werken"
+
+#: core/class-itsec-files.php:801
+msgid ""
+"Unable to write to your .htaccess or nginx.conf file. If the problem "
+"persists contact support."
+msgstr ""
+"Kan niet schrijven naar uw .htaccess of nginx.conf bestand. Als het probleem "
+"blijft contacteer ondersteuning."
+
+#: core/class-itsec-files.php:856
+msgid ""
+"Unable to write to your wp-config.php file. If the problem persists contact "
+"support."
+msgstr ""
+"Kan niet schrijven naar uw wp-config.php bestand. Als het probleem blijft "
+"contacteer ondersteuning."
+
+#: core/class-itsec-global-settings.php:66
+msgid "Quick Links"
+msgstr "Snelle Links"
+
+#: core/class-itsec-global-settings.php:75
+msgid "Welcome"
+msgstr "Welkom"
+
+#: core/class-itsec-global-settings.php:84
+#: core/class-itsec-global-settings.php:349 core/class-itsec-lockout.php:351
+msgid "Global Settings"
+msgstr "Globale Instellingen"
+
+#: core/class-itsec-global-settings.php:153
+msgid ""
+"The settings below are more advanced settings that should be done with "
+"caution on an existing site."
+msgstr ""
+"De instellingen hieronder zijn geavanceerde instellingen, wees voorzichtig "
+"bij het verwerken op een bestaande site."
+
+#: core/class-itsec-global-settings.php:156
+msgid ""
+"Make sure you have a good backup before changing any setting on this page."
+msgstr ""
+"Maak eerst een back-up voordat je de instellingen gaat veranderen op deze "
+"pagina."
+
+#: core/class-itsec-global-settings.php:158
+msgid ""
+"In addition, these settings will not be reversed if you remove this plugin. "
+"That said, all settings on this page use methods recommended by WordPress."
+"org itself and will help in improving the security of your site."
+msgstr ""
+"Bovendien zullen deze instellingen niet worden teruggedraaid als je deze "
+"plugin verwijderd. Dat gezegd hebbende, alle instellingen op deze pagina "
+"gebruikt methoden die aanbevolen wordt door WordPress.org zelf en zal helpen "
+"bij het ​​verbeteren van de beveiliging van uw site."
+
+#: core/class-itsec-global-settings.php:182
+msgid "Allow iThemes to track plugin usage via anonymous data. "
+msgstr "Laat iThemes het plugin gebruik volgen via anonieme gegevens."
+
+#: core/class-itsec-global-settings.php:203
+msgid ""
+"The email address(es) all database backups will be sent to. One address per "
+"line."
+msgstr ""
+"De e-mailadres(sen) van alle database back-ups worden verzonden naar. Een "
+"adres per regel."
+
+#: core/class-itsec-global-settings.php:226
+msgid "Enable Blacklist Repeat Offender"
+msgstr "Schakel Zwartlijst Herhaaldelijke Overtreder in"
+
+#: core/class-itsec-global-settings.php:227
+msgid ""
+"If this box is checked the IP address of the offending computer will be "
+"added to the \"Ban Users\" blacklist after reaching the number of lockouts "
+"listed below."
+msgstr ""
+"Als dit vakje is aangevinkt wordt het IP-adres van de overtredende computer, "
+"na het bereiken van het aantal van de hieronder vermelde buitensluitingen "
+"worden toegevoegd aan de \"Ban Users \" zwarte lijst."
+
+#: core/class-itsec-global-settings.php:232
+msgid ""
+"Note that as you are on NGINX you will still need to manually restart the "
+"server even though the users will be added to the banned users list."
+msgstr ""
+"Merk op, dat je bent op NGINX  je nog steeds naar de handmatig de server "
+"moet herstarten, hoewel de gebruikers zal worden toegevoegd aan de lijst van "
+"verbannen gebruikers."
+
+#: core/class-itsec-global-settings.php:255
+msgid "Lockouts"
+msgstr "Buitensluitingen"
+
+#: core/class-itsec-global-settings.php:256
+msgid ""
+"The number of lockouts per IP before the host is banned permanently from "
+"this site."
+msgstr ""
+"Het aantal buitensluitingen per IP voordat de bezoeker wordt permanent "
+"verbannen van deze site."
+
+#: core/class-itsec-global-settings.php:277
+#: core/class-itsec-global-settings.php:669
+#: modules/free/backup/class-itsec-backup-admin.php:492
+msgid "Days"
+msgstr "Dagen"
+
+#: core/class-itsec-global-settings.php:278
+msgid ""
+"How many days should a lockout be remembered to meet the blacklist count "
+"above."
+msgstr ""
+"Hoeveel dagen moet een buitensluiting herinnerd worden om te voldoen aan de "
+"zwartelijst telling hierboven."
+
+#: core/class-itsec-global-settings.php:301
+msgid "Enable Email Lockout Notifications"
+msgstr "Schakel Email Buitensluiting Notificaties in"
+
+#: core/class-itsec-global-settings.php:304
+msgid "This feature will trigger an email to be sent to the "
+msgstr "Deze functie zal een e-mail activeren om te verzenden naar de "
+
+#: core/class-itsec-global-settings.php:305
+msgid "notifications email address"
+msgstr "notificaties email adres"
+
+#: core/class-itsec-global-settings.php:306
+msgid " whenever a host or user is locked out of the system."
+msgstr "wanneer een bezoeker of gebruiker is buitengesloten van het systeem."
+
+#: core/class-itsec-global-settings.php:328
+msgid "Enable InfiniteWP Compatibility"
+msgstr "Schakel InfiniteWP Compatibiliteit"
+
+#: core/class-itsec-global-settings.php:332
+msgid "Turning this feature on will enable compatibility with"
+msgstr ""
+"Het aanzetten van deze functie zal het inschakelen van compatibiliteit met"
+
+#: core/class-itsec-global-settings.php:333
+msgid "InfiniteWP."
+msgstr "InfiniteWP."
+
+#: core/class-itsec-global-settings.php:334
+msgid "Do not turn it on unless you use the InfiniteWP service."
+msgstr "Zet het niet aan, tenzij je de InfiniteWP service gebruikt."
+
+#: core/class-itsec-global-settings.php:357
+msgid "Write to Files"
+msgstr "Schrijf naar bestanden"
+
+#: core/class-itsec-global-settings.php:365
+msgid "Notification Email"
+msgstr "Notificatie Email"
+
+#: core/class-itsec-global-settings.php:374
+msgid "Backup Delivery Email"
+msgstr "Back-up Geleverde Email"
+
+#: core/class-itsec-global-settings.php:383
+msgid "Host Lockout Message"
+msgstr "Bezoeker Buitensluiting Bericht"
+
+#: core/class-itsec-global-settings.php:392
+msgid "User Lockout Message"
+msgstr "Gebruiker Buitensluiting Bericht"
+
+#: core/class-itsec-global-settings.php:401
+msgid "Blacklist Repeat Offender"
+msgstr "Zwartelijst Herhaaldelijk Overtreder"
+
+#: core/class-itsec-global-settings.php:409
+msgid "Blacklist Threshold"
+msgstr "Zwartelijst Drempel"
+
+#: core/class-itsec-global-settings.php:417
+msgid "Blacklist Lookback Period"
+msgstr "Zwartelijst Terugkijkend Periode"
+
+#: core/class-itsec-global-settings.php:425
+msgid "Lockout Period"
+msgstr "Buitensluiting Periode"
+
+#: core/class-itsec-global-settings.php:433
+msgid "Lockout White List"
+msgstr "Buitensluiting Witte lijst"
+
+#: core/class-itsec-global-settings.php:442
+msgid "Email Lockout Notifications"
+msgstr "Email Buitensluiting Notificaties"
+
+#: core/class-itsec-global-settings.php:450
+msgid "Log Type"
+msgstr "Log Type"
+
+#: core/class-itsec-global-settings.php:458
+msgid "Days to Keep Database Logs"
+msgstr "Dagen te Bewaren Database Log bestanden"
+
+#: core/class-itsec-global-settings.php:466
+msgid "Path to Log Files"
+msgstr "Pad naar Log Bestanden"
+
+#: core/class-itsec-global-settings.php:476
+msgid "Add InfiniteWP Compatibility"
+msgstr "Toevoeg InfiniteWP Compatibiliteit"
+
+#: core/class-itsec-global-settings.php:486
+msgid "Allow Data Tracking"
+msgstr "Laat Data Tracking Toe"
+
+#: core/class-itsec-global-settings.php:496
+msgid "NGINX Conf File"
+msgstr "NGINX Configureer Bestand"
+
+#: core/class-itsec-global-settings.php:506
+#: core/class-itsec-global-settings.php:539
+msgid "Disable File Locking"
+msgstr "Zet uit Bestand Vergrendeling"
+
+#: core/class-itsec-global-settings.php:542
+msgid ""
+"Turning this option on will prevent errors related to file locking however "
+"might result in operations being executed twice. We do not recommend turning "
+"this off unless your host prevents the file locking feature from working "
+"correctly."
+msgstr ""
+"U deze optie inschakelt zal fouten voorkomen worden met betrekking tot het "
+"Bestand Vergrendeling, echter kan het leiden tot handelingen die twee keer "
+"worden uitgevoerd. We raden niet aan dit uit te schakelen, tenzij uw "
+"provider het Bestand Vergrendeling functie correct laat werken."
+
+#: core/class-itsec-global-settings.php:560 core/class-itsec-setup.php:29
+msgid "error"
+msgstr "fout"
+
+#: core/class-itsec-global-settings.php:564
+msgid "The message to display when a computer (host) has been locked out."
+msgstr ""
+"Het bericht dat vertoont moet worden wanneer een computer (bezoeker) "
+"buitengesloten wordt."
+
+#: core/class-itsec-global-settings.php:566
+#: core/class-itsec-global-settings.php:1116
+msgid ""
+"You can use HTML in your message. Allowed tags include: a, br, em, strong, "
+"h1, h2, h3, h4, h5, h6, div"
+msgstr ""
+"Je kunt HTML gebruiken in je bericht. Toegestane tags zijn: a, br, em, "
+"strong, h1, h2, h3, h4, h5, h6, div"
+
+#: core/class-itsec-global-settings.php:587
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:120
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:141
+msgid "Minutes"
+msgstr "Minuten"
+
+#: core/class-itsec-global-settings.php:588
+msgid ""
+"The length of time a host or user will be banned from this site after "
+"hitting the limit of bad logins."
+msgstr ""
+"De duur van een bezoeker of gebruiker die wordt verbannen van deze site na "
+"het raken van de limiet van foute inlogpogingen."
+
+#: core/class-itsec-global-settings.php:616
+msgid "Add my current IP to Whitelist"
+msgstr "Voeg mijn huidige IP naar witte lijst"
+
+#: core/class-itsec-global-settings.php:617
+msgid ""
+"Use the guidelines below to enter hosts that will not be locked out from "
+"your site. This will keep you from locking yourself out of any features if "
+"you should trigger a lockout. Please note this does not override away mode "
+"and will only prevent a temporary ban. Should a permanent ban be triggered "
+"you will still be added to the \"Ban Users\" list unless the IP address is "
+"also white listed in that section."
+msgstr ""
+"Gebruik de onderstaande richtlijnen om gasten, die niet mogen worden "
+"buitengesloten van uw site, in te voeren. Dit houd ook van het buitensluiten "
+"van jezelf in, welke functies als je een buitensluiting moet activeren. Let "
+"op: dit overlapt niet de afwezigheid modus en voorkomt alleen een tijdelijk "
+"verbod. Zal er een permanente ban worden geactiveerd zul je nog steeds "
+"worden toegevoegd aan de \"Ban Users \" lijst tenzij het ​​IP-adres is ook op "
+"de witte lijst in die sectie."
+
+#: core/class-itsec-global-settings.php:619
+msgid "You may white list users by individual IP address or IP address range."
+msgstr ""
+"U kunt witte lijst gebruikers toevoegen door individuele IP-adres of IP-"
+"adresbereik."
+
+#: core/class-itsec-global-settings.php:620
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:184
+msgid ""
+"Individual IP addesses must be in IPV4 standard format (i.e. ###.###.###.### "
+"or ###.###.###.###/##). Wildcards (*) or a netmask is allowed to specify a "
+"range of ip addresses."
+msgstr ""
+"Individuele IP adressen moeten in IPV4 standaard formaat (b.v. ###.###.###."
+"### or ###.###.###.###/##). Wildcards (*) of een netwerkmasker is toegestaan ​​"
+"om een reeks IP-adressen opgeven."
+
+#: core/class-itsec-global-settings.php:621
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:185
+msgid ""
+"If using a wildcard (*) you must start with the right-most number in the ip "
+"field. For example ###.###.###.* and ###.###.*.* are permitted but ###.###.*."
+"### is not."
+msgstr ""
+"Bij gebruik van een wildcard (*) moet u beginnen met het meest rechtse getal "
+"in het IP-veld. Bijvoorbeeld ###.###.###.* en ###.###.*.* zijn toegestaan "
+"maar ###.###.*.### niet."
+
+#: core/class-itsec-global-settings.php:622
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:186
+msgid "Lookup IP Address."
+msgstr "Zoek IP adres."
+
+#: core/class-itsec-global-settings.php:623
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:187
+msgid "Enter only 1 IP address or 1 IP address range per line."
+msgstr "Voer slechts 1 IP-adres of 1 IP-adres bereik per regel."
+
+#: core/class-itsec-global-settings.php:625
+msgid ""
+"This white list will prevent any ip listed from triggering an automatic "
+"lockout. You can still block the IP address manually in the banned users "
+"settings."
+msgstr ""
+"Deze witte lijst zal elke IP adres een automatische lock-out te voorkomen. U "
+"kunt het IP-adres nog steeds handmatig blokkeren in de verbannen gebruikers "
+"instellingen."
+
+#: core/class-itsec-global-settings.php:647
+msgid "The path on your server where log files should be stored."
+msgstr "Het pad op de server waar logbestanden bewaard moeten worden."
+
+#: core/class-itsec-global-settings.php:648
+#: core/class-itsec-global-settings.php:741
+#: modules/free/backup/class-itsec-backup-admin.php:518
+msgid ""
+"This path must be writable by your website. For added security, it is "
+"recommended you do not include it in your website root folder."
+msgstr ""
+"Deze pad moet schrijfbaar zijn voor je website. Voor extra veiligheid is het "
+"raadzaam het niet op te nemen in uw website hoofdmap., "
+
+#: core/class-itsec-global-settings.php:649
+#: modules/free/backup/class-itsec-backup-admin.php:519
+msgid "Restore Default Location"
+msgstr "Herstel Standaard Locatie"
+
+#: core/class-itsec-global-settings.php:670
+msgid ""
+"The number of days database logs should be kept. File logs will be kept "
+"indefinitely but will be rotated once the file hits 10MB."
+msgstr ""
+"Het aantal dagen databaselogboeken moeten worden gehouden. Logbestanden zal "
+"voor onbepaalde tijd worden bewaard, maar zullen worden overschreven wanneer "
+"het groter wordt als 10MB."
+
+#: core/class-itsec-global-settings.php:694
+msgid "Database Only"
+msgstr "Alleen Database"
+
+#: core/class-itsec-global-settings.php:695
+msgid "File Only"
+msgstr "Alleen Bestand"
+
+#: core/class-itsec-global-settings.php:696
+msgid "Both"
+msgstr "Beide"
+
+#: core/class-itsec-global-settings.php:698
+msgid "How should event logs be kept"
+msgstr "Hoe moeten gebeurtenisloggen worden bewaard"
+
+#: core/class-itsec-global-settings.php:699
+msgid ""
+" can log events in multiple ways, each with advantages and disadvantages. "
+"Database Only puts all events in the database with your posts and other "
+"WordPress data. This makes it easy to retrieve and process but can be slower "
+"if the database table gets very large. File Only is very fast but the plugin "
+"does not process the logs itself as that would take far more resources. For "
+"most users or smaller sites Database Only should be fine. If you have a very "
+"large site or a log processing software then File Only might be a better "
+"option."
+msgstr ""
+"kan gebeurtenissen loggen op meerdere manieren, elk met voor-en nadelen. "
+"Alleen Database plaatst alle gebeurtenissen in de database met je berichten "
+"en andere WordPress gegevens. Dit maakt het gemakkelijk op te halen en "
+"verwerken maar kan langzamer zijn als de databasetabel erg groot wordt. "
+"Alleen Bestand is erg snel, maar de plugin verwerkt niet de logbestanden "
+"zelf omdat dat veel meer middelen nodig heeft. Voor de meeste gebruikers of "
+"kleinere sites is Alleen Database wel goed. Als u een zeer grote site of een "
+"log processing software, is Alleen Bestand misschien een betere optie."
+
+#: core/class-itsec-global-settings.php:716
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:438
+#: modules/free/backup/class-itsec-backup-admin.php:541
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:511
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:329
+#: modules/free/file-change/class-itsec-file-change-admin.php:607
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:341
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:481
+#: modules/free/malware/class-itsec-malware-admin.php:306
+#: modules/free/ssl/class-itsec-ssl-admin.php:347
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:186
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1746
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1769
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1792
+msgid "Save All Changes"
+msgstr "Bewaar Alle Veranderingen"
+
+#: core/class-itsec-global-settings.php:739
+msgid "The path on your server where backup files should be stored."
+msgstr "Het pad op je server waar je back-up bestanden worden bewaard."
+
+#: core/class-itsec-global-settings.php:762
+msgid ""
+"The email address(es) all security notifications will be sent to. One "
+"address per line."
+msgstr ""
+"De email adres(sen) waar alle beveiliging notificaties naar verzonden moeten "
+"worden. Eén adres per regel."
+
+#: core/class-itsec-global-settings.php:783
+#: core/class-itsec-global-settings.php:786
+msgid "Allow File Updates"
+msgstr "Laat Bestand Bijwerken toe"
+
+#: core/class-itsec-global-settings.php:784
+msgid ""
+"Many of the functions of this plugin require editing your wp-config.php or ."
+"htaccess files. Would you like to allow us to safely update these files for "
+"you automatically?"
+msgstr ""
+"Veel van de functies van deze plugin vereisen het bewerken van je wp-config."
+"php of htaccess-bestanden. Wilt u ons in staat stellen om veilig deze "
+"bestanden automatisch bij te werken voor u?"
+
+#: core/class-itsec-global-settings.php:788
+msgid "Setting Saved. File updates allowed."
+msgstr "Instellingen Bewaard. Bestand bijwerkingen toegestaan."
+
+#: core/class-itsec-global-settings.php:789
+msgid ""
+"Whoops. Something went wrong. Check the \"Global Settings\" section on the "
+"settings page (it is the first setting) to make sure your option was saved "
+"or contact support."
+msgstr ""
+"Oeps, Iets ging mis. Controleer de \"Global Settings\" sectie op de "
+"instellingen pagina (is de eerste sectie) om zeker van te zijn je optie is "
+"bewaard, anders contracteer ondersteuning."
+
+#: core/class-itsec-global-settings.php:800
+msgid "Help Us Improve"
+msgstr "Help Ons Verbeteren"
+
+#: core/class-itsec-global-settings.php:802
+msgid ""
+"would like to collect anonymous data about features you use to help improve "
+"this plugin. Absolutely no information that can identify you will be "
+"collected."
+msgstr ""
+"graag anonieme gegevens verzamelen over functies die u gebruikt voor het "
+"verbeteren van deze plugin. Absoluut geen informatie die u kan identificeren "
+"worden verzameld."
+
+#: core/class-itsec-global-settings.php:804
+msgid "Yes, I'd like to help"
+msgstr "Ja, ik wil graag helpen"
+
+#: core/class-itsec-global-settings.php:806
+msgid "Setting Saved. Thanks for helping us make this plugin better."
+msgstr ""
+"Instellingen Bewaard. Bedankt voor de hulp om deze plugin beter te maken."
+
+#: core/class-itsec-global-settings.php:807
+msgid ""
+"Whoops. Something went wrong. Check the global settings page or contact "
+"support."
+msgstr ""
+"Oeps. Iets ging mis. Controleer de globale instellingen pagina of "
+"contracteer ondersteuning."
+
+#: core/class-itsec-global-settings.php:861
+msgid "The following backup email address(es) do not appear to be valid: "
+msgstr "De volgende back-up email adres(sen) lijken niet geldig te zijn:"
+
+#: core/class-itsec-global-settings.php:902
+msgid ""
+"The following notification email address(es) do not appear to be valid: "
+msgstr "De volgende notificatie email adres(sen) lijken niet geldig te zijn:"
+
+#: core/class-itsec-global-settings.php:975
+msgid "There is a problem with an IP address in the white list:"
+msgstr "Er is een probleem met een IP adres in de witte lijst"
+
+#: core/class-itsec-global-settings.php:979
+msgid "is not a valid address in the white list users box."
+msgstr "is geen geldig adres in de witte lijst gebruikers box."
+
+#: core/class-itsec-global-settings.php:997
+#: modules/free/backup/class-itsec-backup-admin.php:709
+msgid ""
+"The file path entered does not appear to be valid. Please ensure it exists "
+"and that WordPress can write to it. "
+msgstr ""
+"Het bestandspad lijkt niet geldig te zijn. Controleer als het bestaat en dat "
+"WordPress kan beschrijven. "
+
+#: core/class-itsec-global-settings.php:1047 core/class-itsec-lockout.php:1022
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:574
+#: modules/free/backup/class-itsec-backup-admin.php:623
+#: modules/free/backup/class-itsec-backup-admin.php:754
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:724
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:419
+#: modules/free/file-change/class-itsec-file-change-admin.php:341
+#: modules/free/file-change/class-itsec-file-change-admin.php:625
+#: modules/free/file-change/class-itsec-file-change-admin.php:685
+#: modules/free/file-change/class-itsec-file-change-admin.php:810
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:465
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:653
+#: modules/free/malware/class-itsec-malware-admin.php:357
+#: modules/free/malware/class-itsec-malware-admin.php:395
+#: modules/free/malware/class-itsec-malware-admin.php:425
+#: modules/free/ssl/class-itsec-ssl-admin.php:577
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:249
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1948
+msgid "Security error!"
+msgstr "Beveiligingsfout!"
+
+#: core/class-itsec-global-settings.php:1110 core/class-itsec-setup.php:30
+msgid "You have been locked out due to too many login attempts."
+msgstr "Je bent buitengesloten door teveel inlogpogingen."
+
+#: core/class-itsec-global-settings.php:1114
+msgid ""
+"The message to display to a user when their account has been locked out."
+msgstr ""
+"Dit bericht tonen aan iedere gebruiker wiens account is buitengesloten."
+
+#: core/class-itsec-global-settings.php:1149
+msgid "Allow"
+msgstr "Toestaan"
+
+#: core/class-itsec-global-settings.php:1151
+msgid "to write to wp-config.php"
+msgstr "te schrijven naar wp-config.php"
+
+#: core/class-itsec-global-settings.php:1156
+msgid "Whether or not"
+msgstr "Het al dan niet"
+
+#: core/class-itsec-global-settings.php:1158
+msgid "should be allowed to write to wp-config.php"
+msgstr "moet worden toegestaan ​​om te schrijven naar wp-config.php"
+
+#: core/class-itsec-global-settings.php:1160
+msgid ""
+" automatically. If disabled you will need to manually place configuration "
+"options in those files."
+msgstr ""
+"automatisch. Indien uitgeschakeld, moet u handmatig de configuratie-opties "
+"plaatsen in die bestanden."
+
+#: core/class-itsec-lockout.php:65
+msgid "Active Lockouts"
+msgstr "Actieve Buitensluitingen"
+
+#: core/class-itsec-lockout.php:82
+msgid "Don't Lock Yourself Out"
+msgstr "Sluit Je Zelf Niet Buiten"
+
+#: core/class-itsec-lockout.php:295 core/class-itsec-lockout.php:716
+msgid "lockout"
+msgstr "buitensluiting"
+
+#: core/class-itsec-lockout.php:295
+msgid ""
+"A whitelisted host has triggered a lockout condition but was not locked out."
+msgstr ""
+"Een witte lijst gebruiker heeft een buitensluiting veroorzaakt, maar werd "
+"niet buitengesloten."
+
+#: core/class-itsec-lockout.php:349
+msgid "About Lockouts"
+msgstr "Over Buitensluiting"
+
+#: core/class-itsec-lockout.php:350
+msgid "Your lockout settings can be configured in"
+msgstr "Jouw Buitensluiting instellingen kan hier worden geconfigureerd."
+
+#: core/class-itsec-lockout.php:352
+msgid "Your current settings are configured as follows:"
+msgstr "Jouw huidige instellingen zijn geconfigureerd als volgt:"
+
+#: core/class-itsec-lockout.php:353
+msgid "Permanently ban"
+msgstr "Permanente verbanning"
+
+#: core/class-itsec-lockout.php:354 core/class-itsec-lockout.php:364
+msgid "yes"
+msgstr "ja"
+
+#: core/class-itsec-lockout.php:354 core/class-itsec-lockout.php:364
+msgid "no"
+msgstr "nee"
+
+#: core/class-itsec-lockout.php:355
+msgid "Number of lockouts before permanent ban"
+msgstr "Nummer van buitensluitingen voor een permanente verbanning"
+
+#: core/class-itsec-lockout.php:357
+msgid "How long lockouts will be remembered for ban"
+msgstr "Hoe lang moet een buitensluiting worden onthouden voor een verbanning"
+
+#: core/class-itsec-lockout.php:359
+msgid "Host lockout message"
+msgstr "Bezoeker buitensluiting bericht"
+
+#: core/class-itsec-lockout.php:361
+msgid "User lockout message"
+msgstr "Gebruiker buitensluiting bericht"
+
+#: core/class-itsec-lockout.php:363
+msgid "Is this computer white-listed"
+msgstr "Staat deze computer op de witte lijst"
+
+#: core/class-itsec-lockout.php:594 core/class-itsec-lockout.php:1084
+msgid "Your IP Address"
+msgstr "Jouw IP adres"
+
+#: core/class-itsec-lockout.php:595 core/class-itsec-lockout.php:1084
+msgid "is whitelisted until"
+msgstr "staat op de witte lijst tot "
+
+#: core/class-itsec-lockout.php:745 core/class-itsec-lockout.php:774
+msgid "White Listed"
+msgstr "Witte lijst vermeldingen"
+
+#: core/class-itsec-lockout.php:829
+msgid "Locked out hosts"
+msgstr "Buitengesloten gasten"
+
+#: core/class-itsec-lockout.php:849
+msgid "Currently no hosts are locked out of this website."
+msgstr "Geen gasten zijn op dit moment buitengesloten van deze website."
+
+#: core/class-itsec-lockout.php:857
+msgid "Locked out users"
+msgstr "Buitengesloten gebruikers"
+
+#: core/class-itsec-lockout.php:878
+msgid "Currently no users are locked out of this website."
+msgstr "Geen gebruikers zijn op dit moment buitengesloten van deze website."
+
+#: core/class-itsec-lockout.php:886
+msgid "Locked out usernames (not real users)"
+msgstr "Buitengesloten gebruikersnamen (geen echte gebruikers)"
+
+#: core/class-itsec-lockout.php:906
+msgid "Currently no usernames are locked out of this website."
+msgstr ""
+"Geen gebruikersnamen zijn op dit moment buitengesloten van deze website."
+
+#: core/class-itsec-lockout.php:914
+msgid "Release Lockout"
+msgstr "Vrijlating Buitensluiting"
+
+#: core/class-itsec-lockout.php:944
+msgid "Host or User Lockout"
+msgstr "Bezoeker of Gebruiker Buitensluiting"
+
+#: core/class-itsec-lockout.php:1026
+msgid "The selected lockouts have been cleared."
+msgstr "De geselecteerde buitensluitingen zijn verwijderd."
+
+#: core/class-itsec-lockout.php:1077
+msgid ""
+"Security is a delicate item. It does not care who you are, if it sees that "
+"you are trying to do something strange it will lock you out. This can be "
+"troublesome on sites with existing errors, particularly missing assets such "
+"as images and others."
+msgstr ""
+"Veiligheid is een delicaat punt. Het maakt niet uit wie je bent, als het "
+"ziet dat je probeert om iets vreemds te doen zal  het je buitensluiten. Dit "
+"kan lastig op sites met bestaande fouten, vooral ontbrekende dingen zoals "
+"afbeeldingen en dergelijke."
+
+#: core/class-itsec-lockout.php:1078
+msgid ""
+"Use the button below to temporarily white list your IP from lockouts for 24 "
+"hours. It will still notify you of the situation but it will not lock you "
+"out of your site allowing you a chance to fix the issue."
+msgstr ""
+"Gebruik deze knop hieronder om tijdelijk uw IP op de witte lijst van "
+"uitsluitingen te zetten, dit voor 24 uur. Het zal je nog steeds op de hoogte "
+"van de situatie, maar het zal je geen buitensluiting geven van uw site, "
+"zodat u een kans om het probleem op te lossen."
+
+#: core/class-itsec-lockout.php:1079
+msgid ""
+"Please note that if your IP address changes at any time during the period "
+"(such as you switch locations) you could still inadvertently lock yourself "
+"out."
+msgstr ""
+"Let op: als uw IP-adres verandert op elk moment tijdens de periode (zoals "
+"het inschakelen locaties) kan je nog steeds per ongeluk jezelf buitensluiten."
+
+#: core/class-itsec-lockout.php:1086
+msgid "Temporarily Whitelist my IP"
+msgstr "Tijdelijk mijn IP op de Witte Lijst"
+
+#: core/class-itsec-lockout.php:1110
+msgid "has"
+msgstr "had"
+
+#: core/class-itsec-lockout.php:1115
+msgid "host"
+msgstr "bezoeker"
+
+#: core/class-itsec-lockout.php:1117
+msgid "The host has been locked out "
+msgstr "De bezoeker is buitengesloten"
+
+#: core/class-itsec-lockout.php:1121
+msgid "permanently"
+msgstr "permanent"
+
+#: core/class-itsec-lockout.php:1122
+msgid "To release the host lockout you can remove the host from the"
+msgstr ""
+"Om de bezoeker vrij te laten van de buitensluiting, verwijder dan de "
+"bezoeker van de"
+
+#: core/class-itsec-lockout.php:1122
+msgid "host list"
+msgstr "bezoekers lijst"
+
+#: core/class-itsec-lockout.php:1126 core/class-itsec-lockout.php:1152
+#: core/class-itsec-lockout.php:1160
+msgid "until"
+msgstr "tot"
+
+#: core/class-itsec-lockout.php:1127 core/class-itsec-lockout.php:1156
+msgid "To release the lockout please visit"
+msgstr "Om de buitensluiting vrij te laten, ga naar"
+
+#: core/class-itsec-lockout.php:1127
+msgid "the admin area"
+msgstr "het administratie gedeelte"
+
+#: core/class-itsec-lockout.php:1152
+msgid "The user has been locked out"
+msgstr "De gebruiker is buitengesloten"
+
+#: core/class-itsec-lockout.php:1154
+msgid "user"
+msgstr "gebruiker"
+
+#: core/class-itsec-lockout.php:1156 core/class-itsec-lockout.php:1166
+#: core/class-itsec-lockout.php:1170
+msgid "the lockouts page"
+msgstr "de buitensluiting pagina"
+
+#: core/class-itsec-lockout.php:1160
+msgid "and the user has been locked out"
+msgstr "en de gebruiker is buitengesloten"
+
+#: core/class-itsec-lockout.php:1161
+msgid "have"
+msgstr "heeft"
+
+#: core/class-itsec-lockout.php:1162
+msgid "and a user"
+msgstr "en een gebruiker"
+
+#: core/class-itsec-lockout.php:1166
+msgid "To release the user lockout please visit"
+msgstr "Om de gebruiker buitensluiting vrij te laten, ga naar"
+
+#: core/class-itsec-lockout.php:1170
+msgid "To release the lockouts please visit"
+msgstr "Om de buitensluitingen vrij te laten, ga naar"
+
+#: core/class-itsec-lockout.php:1187
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:703
+msgid "Dear Site Admin"
+msgstr "Geachte Website Administrator"
+
+#: core/class-itsec-lockout.php:1188
+msgid "A"
+msgstr "Een"
+
+#: core/class-itsec-lockout.php:1192
+msgid " been locked out of the WordPress site at"
+msgstr "zijn buitengesloten van de WordPress site om"
+
+#: core/class-itsec-lockout.php:1195
+msgid "due to"
+msgstr "tot aan"
+
+#: core/class-itsec-lockout.php:1200
+msgid "This email was generated automatically by"
+msgstr "Deze email is automatisch gegenereerd door"
+
+#: core/class-itsec-lockout.php:1202
+msgid "To change your email preferences please visit"
+msgstr "Om je email instelling te veranderen, ga naar"
+
+#: core/class-itsec-lockout.php:1204
+msgid "the plugin settings"
+msgstr "de plugin instellingen"
+
+#: core/class-itsec-lockout.php:1208
+msgid "Site Lockout Notification"
+msgstr "Site Buitensluiting Notificatie"
+
+#: core/class-itsec-logger-all-logs.php:169
+#: modules/free/file-change/class-itsec-file-change-log.php:106
+#: modules/free/file-change/class-itsec-file-change-log.php:182
+#: modules/free/malware/class-itsec-malware-log.php:38
+#: modules/free/malware/class-itsec-malware-log.php:170
+msgid "Details"
+msgstr "Details"
+
+#: core/class-itsec-logger-all-logs.php:189
+msgid "Function"
+msgstr "Functies"
+
+#: core/class-itsec-logger-all-logs.php:190
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: core/class-itsec-logger-all-logs.php:191
+#: modules/free/brute-force/class-itsec-brute-force-log.php:83
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:90
+#: modules/free/malware/class-itsec-malware-log.php:166
+msgid "Time"
+msgstr "Tijd"
+
+#: core/class-itsec-logger-all-logs.php:192
+#: modules/free/brute-force/class-itsec-brute-force-log.php:84
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:90
+msgid "Host"
+msgstr "Bezoeker"
+
+#: core/class-itsec-logger-all-logs.php:193
+#: modules/free/malware/class-itsec-malware-log.php:169
+msgid "User"
+msgstr "Gebruiker"
+
+#: core/class-itsec-logger-all-logs.php:194
+msgid "URL"
+msgstr "URL"
+
+#: core/class-itsec-logger-all-logs.php:195
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:90
+msgid "Referrer"
+msgstr "Verwijzer"
+
+#: core/class-itsec-logger-all-logs.php:196
+msgid "Data"
+msgstr "Data"
+
+#: core/class-itsec-logger.php:93 core/class-itsec-logger.php:113
+msgid "Security Log Information"
+msgstr "Beveiliging Log Informatie"
+
+#: core/class-itsec-logger.php:102
+msgid "Security Log Data"
+msgstr "Beveiliging Log Data"
+
+#: core/class-itsec-logger.php:170
+msgid "Log Summary"
+msgstr "Log Samenvatting"
+
+#: core/class-itsec-logger.php:174
+msgid "Your database contains"
+msgstr "Jouw database bevat"
+
+#: core/class-itsec-logger.php:175
+msgid "log entries."
+msgstr "log inzendingen."
+
+#: core/class-itsec-logger.php:178
+msgid ""
+"Use the button below to purge the log table in your database. Please note "
+"this will purge all log entries in the database including 404s."
+msgstr ""
+"Gebruik de onderstaande knop om de log tabel te spuien in uw database. Let "
+"op: dit zal alle loggegevens in de database spuien, inclusief 404's."
+
+#: core/class-itsec-logger.php:181
+msgid "Clear Logs"
+msgstr "Verwijder Logbestanden"
+
+#: core/class-itsec-logger.php:340
+msgid "Below are various logs of information collected by"
+msgstr "Hieronder staan ​​diverse informatie logbestanden verzameld door"
+
+#: core/class-itsec-logger.php:342
+msgid ""
+"This information can help you get a picture of what is happening with your "
+"site and the level of success you have achieved in your security efforts."
+msgstr ""
+"Deze informatie kan u helpen een beeld te geven van wat er gebeurt met uw "
+"site en de mate van succes dat u in uw beveiliging hebt gestoken."
+
+#: core/class-itsec-logger.php:360
+msgid ""
+"To view logs within the plugin you must enable database logging in the "
+"plugin settings. File logging is not available for access within the plugin "
+"itself."
+msgstr ""
+"Om logboeken te bekijken in de plug-in moet u de database loggen inschakelen "
+"in de plugin instellingen. Bestand loggen is niet beschikbaar voor de "
+"toegang in de plugin zelf."
+
+#: core/class-itsec-logger.php:377
+msgid "To adjust logging options visit the global settings page."
+msgstr "Om loggen bij te stellen ga naar de globale instellingen pagina."
+
+#: core/class-itsec-logger.php:379
+msgid "Select Filter: "
+msgstr "Selecteer Filter:"
+
+#: core/class-itsec-logger.php:381
+msgid "All Log Data"
+msgstr "Alle Log Data"
+
+#: core/class-itsec-setup.php:201
+msgid ""
+"<strong>ERROR</strong>: You must activate this plugin from the network "
+"dashboard."
+msgstr ""
+"<strong>FOUT</strong>: Je moet deze plugin activeren van de netwerk dasboard."
+
+#: core/content/system.php:9
+msgid "User Information"
+msgstr "Gebruikers Informatie"
+
+#: core/content/system.php:11
+msgid "Public IP Address"
+msgstr "Publieke IP Adres"
+
+#: core/content/system.php:12 core/content/system.php:90
+msgid "Get more information on this address"
+msgstr "Verkrijg meer informatie van dit adres"
+
+#: core/content/system.php:15
+msgid "User Agent"
+msgstr "Gebruikers Profielen"
+
+#: core/content/system.php:21
+msgid "File System Information"
+msgstr "Bestand Systeem Informatie"
+
+#: core/content/system.php:23
+msgid "Website Root Folder"
+msgstr "Website Hoofdmap"
+
+#: core/content/system.php:25
+msgid "Document Root Path"
+msgstr "Document Hoofdpad"
+
+#: core/content/system.php:32 core/content/system.php:49
+#: core/content/system.php:255 core/content/system.php:263
+#: core/content/system.php:271
+msgid "Yes"
+msgstr "Ja"
+
+#: core/content/system.php:38 core/content/system.php:55
+msgid "No."
+msgstr "Nee"
+
+#: core/content/system.php:42
+msgid ".htaccess File is Writable"
+msgstr ".htaccess File is Schrijfbaar"
+
+#: core/content/system.php:59
+msgid "wp-config.php File is Writable"
+msgstr "wp-config.php File is Schrijfbaar"
+
+#: core/content/system.php:65
+msgid "Database Information"
+msgstr "Database Informatie"
+
+#: core/content/system.php:67
+msgid "MySQL Database Version"
+msgstr "MySQL Database Versie"
+
+#: core/content/system.php:70
+msgid "MySQL Client Version"
+msgstr "MySQL Client Versie"
+
+#: core/content/system.php:72
+msgid "Database Host"
+msgstr "Database Host"
+
+#: core/content/system.php:73
+msgid "Database Name"
+msgstr "Database Naam"
+
+#: core/content/system.php:74
+msgid "Database User"
+msgstr "Database Gebruiker"
+
+#: core/content/system.php:79
+msgid "Not Set"
+msgstr "Onbekend"
+
+#: core/content/system.php:79 core/content/system.php:171
+#: core/content/system.php:179 core/content/system.php:188
+#: core/content/system.php:196 core/content/system.php:205
+#: core/content/system.php:214 core/content/system.php:222
+#: core/content/system.php:240 core/content/system.php:249
+#: modules/free/ssl/class-itsec-ssl-admin.php:261
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:407
+msgid "Off"
+msgstr "Uit"
+
+#: core/content/system.php:81
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: core/content/system.php:86
+msgid "Server Information"
+msgstr "Server Informatie"
+
+#: core/content/system.php:89
+msgid "Server / Website IP Address"
+msgstr "Server / Website IP Address"
+
+#: core/content/system.php:93
+msgid "Server Type"
+msgstr "Server Type"
+
+#: core/content/system.php:96
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: core/content/system.php:97
+msgid "Browser Compression Supported"
+msgstr "Browser Compressie Ondersteund"
+
+#: core/content/system.php:105
+msgid "none"
+msgstr "niets"
+
+#: core/content/system.php:111 core/content/system.php:112
+msgid "unavailable"
+msgstr "niet beschikbaar"
+
+#: core/content/system.php:131
+msgid "PHP Process User (UID:GID)"
+msgstr "PHP Proces Gebruiker (UID:GID)"
+
+#: core/content/system.php:137
+msgid "PHP Information"
+msgstr "PHP Informatie"
+
+#: core/content/system.php:139
+msgid "PHP Version"
+msgstr "PHP Versie"
+
+#: core/content/system.php:140
+msgid "PHP Memory Usage"
+msgstr "PHP Geheugen Gebruik"
+
+#: core/content/system.php:141
+msgid " MB"
+msgstr " MB"
+
+#: core/content/system.php:147 core/content/system.php:155
+#: core/content/system.php:163 core/content/system.php:231
+msgid "N/A"
+msgstr "N/A"
+
+#: core/content/system.php:150
+msgid "PHP Memory Limit"
+msgstr "PHP Geheugen Limiet"
+
+#: core/content/system.php:158
+msgid "PHP Max Upload Size"
+msgstr "PHP Max Upload Grootte"
+
+#: core/content/system.php:166
+msgid "PHP Max Post Size"
+msgstr "PHP Max Bericht Grootte"
+
+#: core/content/system.php:169 core/content/system.php:177
+#: core/content/system.php:186 core/content/system.php:194
+#: core/content/system.php:203 core/content/system.php:212
+#: core/content/system.php:220 core/content/system.php:238
+#: core/content/system.php:247
+msgid "On"
+msgstr "Aan"
+
+#: core/content/system.php:174
+msgid "PHP Safe Mode"
+msgstr "PHP Veilige Modus"
+
+#: core/content/system.php:182
+msgid "PHP Allow URL fopen"
+msgstr "PHP toestaan URL fopen"
+
+#: core/content/system.php:191
+msgid "PHP Allow URL Include"
+msgstr "PHP toestaan URL Omvatten"
+
+#: core/content/system.php:199
+msgid "PHP Display Errors"
+msgstr "PHP Vertoon Fouten"
+
+#: core/content/system.php:208
+msgid "PHP Display Startup Errors"
+msgstr "PHP Vertoon Opstart Fouten"
+
+#: core/content/system.php:217
+msgid "PHP Expose PHP"
+msgstr "PHP Blootstellen PHP"
+
+#: core/content/system.php:225
+msgid "PHP Register Globals"
+msgstr "PHP Register Globale"
+
+#: core/content/system.php:234
+msgid "PHP Max Script Execution Time"
+msgstr "PHP Max Script Uitvoering Tijd"
+
+#: core/content/system.php:235
+msgid "Seconds"
+msgstr "Seconden"
+
+#: core/content/system.php:243
+msgid "PHP Magic Quotes GPC"
+msgstr "PHP Magic Quotes GPC"
+
+#: core/content/system.php:252
+msgid "PHP open_basedir"
+msgstr "PHP open_basedir"
+
+#: core/content/system.php:257 core/content/system.php:265
+#: core/content/system.php:273
+msgid "No"
+msgstr "Nee"
+
+#: core/content/system.php:260
+msgid "PHP XML Support"
+msgstr "PHP XML Support"
+
+#: core/content/system.php:268
+msgid "PHP IPTC Support"
+msgstr "PHP IPTC Support"
+
+#: core/content/system.php:276
+msgid "PHP Exif Support"
+msgstr "PHP Exif Support"
+
+#: core/content/system.php:278
+msgid "Disabled PHP Functions"
+msgstr "Buitengestelde PHP Functies"
+
+#: core/content/system.php:283
+msgid "WordPress Configuration"
+msgstr "WordPress Configuratie"
+
+#: core/content/system.php:287
+msgid "Multisite is enabled"
+msgstr "Multisite ingeschakeld"
+
+#: core/content/system.php:289
+msgid "Multisite is NOT enabled"
+msgstr "Multisite NIET ingeschakeld"
+
+#: core/content/system.php:292
+msgid "\tMultisite"
+msgstr "\tMultisite"
+
+#: core/content/system.php:297
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: core/content/system.php:301
+msgid ""
+"WARNING! Permalinks are NOT Enabled. Permalinks MUST be enabled for this "
+"plugin to function correctly"
+msgstr ""
+"WAARSCHUWING! Permalinks zijn NIET ingeschakeld. Permalinks MOET worden "
+"ingeschakeld om deze plugin correct te laten werken."
+
+#: core/content/system.php:304
+msgid "WP Permalink Structure"
+msgstr "WP Permalink Structuur"
+
+#: core/content/system.php:306
+msgid "Wp-config Location"
+msgstr "Wp-config Locatie"
+
+#: core/content/system.php:308
+msgid "Active Plugins"
+msgstr "Actieve Plugins"
+
+#: core/content/system.php:309
+msgid "Content Directory"
+msgstr "Inhoud Mapnaam"
+
+#: core/content/system.php:313
+msgid " variables"
+msgstr "variabelen"
+
+#: core/content/system.php:315
+msgid "Build Version"
+msgstr "Bouw Versie"
+
+#: core/content/system.php:317
+msgid ""
+"Note: this is NOT the same as the version number on the plugin page or "
+"WordPress.org page and is instead used for support."
+msgstr ""
+"Memo: dit is NIET dezelfde als de versie nummer op de plugin pagina of "
+"WordPress.org pagina en in plaats daarvan gebruikt voor ondersteuning."
+
+#: core/lib/class-itsec-wp-list-table.php:200
+msgid "No items found."
+msgstr "Geen punten gevonden."
+
+#: core/lib/class-itsec-wp-list-table.php:329
+msgid "Bulk Actions"
+msgstr "Bulk Acties"
+
+#: core/lib/class-itsec-wp-list-table.php:339
+msgid "Apply"
+msgstr "Toepassen"
+
+#: core/lib/class-itsec-wp-list-table.php:427
+msgid "Show all dates"
+msgstr "Vertoon alle datums"
+
+#. translators: 1: month name, 2: 4-digit year
+#: core/lib/class-itsec-wp-list-table.php:440
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: core/lib/class-itsec-wp-list-table.php:457
+msgid "List View"
+msgstr "Lijst Vertoning"
+
+#: core/lib/class-itsec-wp-list-table.php:458
+msgid "Excerpt View"
+msgstr "Uittreksel Vertoning"
+
+#: core/lib/class-itsec-wp-list-table.php:485
+msgid "%s pending"
+msgstr "%s hangend"
+
+#: core/lib/class-itsec-wp-list-table.php:557
+#: core/lib/class-itsec-wp-list-table.php:985
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 punt"
+msgstr[1] "%s punten"
+
+#: core/lib/class-itsec-wp-list-table.php:575
+msgid "Go to the first page"
+msgstr "Ga naar de eerste pagina"
+
+#: core/lib/class-itsec-wp-list-table.php:582
+msgid "Go to the previous page"
+msgstr "Ga naar de vorige pagina"
+
+#: core/lib/class-itsec-wp-list-table.php:591
+msgid "Current page"
+msgstr "Huidige Pagina"
+
+#: core/lib/class-itsec-wp-list-table.php:597
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s of %2$s"
+
+#: core/lib/class-itsec-wp-list-table.php:601
+msgid "Go to the next page"
+msgstr "Ga naar de volgende pagina"
+
+#: core/lib/class-itsec-wp-list-table.php:608
+msgid "Go to the last page"
+msgstr "Ga naar de laatste pagina"
+
+#: core/lib/class-itsec-wp-list-table.php:750
+msgid "Select All"
+msgstr "Selecteer Alles"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:35
+msgid "Admin User"
+msgstr "Administrator Gebruiker"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:179
+msgid "The <em>admin</em> user has been removed or renamed."
+msgstr "De <em>administrator</em> gebruiker is verwijderd of hernoemd."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:187
+msgid "The <em>admin</em> user still exists."
+msgstr "De <em>administrator</em> gebruiker is bestaand."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:199
+msgid "The user with id 1 has been removed."
+msgstr "De gebruiker met 1 id is verwijderd."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:207
+msgid "A user with id 1 still exists."
+msgstr "Een gebruiker met 1 id bestaat nog steeds."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:253
+msgid ""
+"The new admin username you entered is invalid or WordPress could not change "
+"the user id or username. Please check the name and try again."
+msgstr ""
+"De nieuwe administrator gebruikersnaam die je hebt ingevoerd is ongeldig of "
+"WordPress kan de gebruiker-ID of wachtwoord niet veranderen. Controleer de "
+"naam en probeer het opnieuw."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:301
+msgid ""
+"It looks like you have already removed the admin user. No further action is "
+"necessary."
+msgstr ""
+"Het lijkt erop dat je al de administrator gebruiker hebt verwijderd. Geen "
+"verdere actie nodig is."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:305
+msgid ""
+"This feature will improve the security of your WordPress installation by "
+"removing common user attributes that can be used to target your site."
+msgstr ""
+"Deze functie zal de beveiliging van uw WordPress-installatie verbeteren door "
+"het verwijderen van gewone gebruiker attributen die kunnen worden gebruikt "
+"om uw site te hacken."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:306
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:142
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:112
+#: modules/free/ssl/class-itsec-ssl-admin.php:329
+#: modules/free/ssl/class-itsec-ssl-admin.php:333
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:306
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:142
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:112
+msgid "Backup your database"
+msgstr "Back-up jouw database"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:306
+msgid "before changing the admin user."
+msgstr "voordat verandering de administrator gebruiker."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:307
+msgid "Notice"
+msgstr "Let op"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:307
+msgid ""
+"Changing the admin username or id of user 1 will log you out of your site "
+"requiring you to log back in again."
+msgstr ""
+"Verandering van de administrator gebruikersnaam of id van een gebruiker, zal "
+"jouw uitloggen van je site, zodat je opnieuw moet inloggen."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:320
+msgid "Enable Change Admin User"
+msgstr "Inschakelen Verandering Administrator Gebruiker"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:327
+msgid "Check this box to enable admin user renaming."
+msgstr ""
+"Vink deze box aan om de administrator gebruiker hernoemen in te schakelen."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:335
+msgid "New Admin Username"
+msgstr "Nieuwe Administrator Gebruikersnaam"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:342
+msgid ""
+"Enter a new username to replace \"admin.\" Please note that if you are "
+"logged in as admin you will have to log in again."
+msgstr ""
+"Voer een nieuwe gebruikersnaam in, om vervanging van  \"admin.\" Houd er "
+"rekening mee dat als je bent ingelogd als administrator moet je opnieuw "
+"inloggen."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:350
+msgid "Change User ID 1"
+msgstr "Verander Gebruiker ID 1"
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:356
+msgid "Change the ID of the user with ID 1."
+msgstr "Verander de ID van de gebruiker met ID 1."
+
+#: modules/free/admin-user/class-itsec-admin-user-admin.php:363
+msgid "Save Admin User"
+msgstr "Bewaar Administrator Gebruiker"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:45
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:317
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:324
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:332
+msgid "Away Mode"
+msgstr "Afwezigheidsmodus"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:101
+msgid "Enable away mode"
+msgstr "Inschakelen afwezigheidsmodus"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:127
+msgid "Set the date at which the admin dashboard should become available"
+msgstr ""
+"Stel de datum waarop de administrator dashboard beschikbaar moet worden"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:172
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:246
+msgid "am"
+msgstr "am"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:173
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:247
+msgid "pm"
+msgstr "pm"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:175
+msgid ""
+"Set the time at which the admin dashboard should become available again."
+msgstr ""
+"Stel het tijdstip waarop de administrator dashboard weer beschikbaar moet "
+"worden."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:201
+msgid "Set the date at which the admin dashboard should become unavailable"
+msgstr ""
+"Stel de datum waarop de administrator dashboard niet beschikbaar moet worden."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:249
+msgid "Set the time at which the admin dashboard should become unavailable."
+msgstr ""
+"Stel het tijdstip waarop de administrator dashboard niet beschikbaar moet "
+"worden."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:265
+msgid "Daily"
+msgstr "Dagelijks"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:266
+msgid "One Time"
+msgstr "Enige Tijd"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:268
+msgid "Select the type of restriction you would like to enable"
+msgstr "Selecteer het soort beperking dat u wilt inschakelen"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:287
+msgid ""
+"Away Mode is enabled and your WordPress Dashboard is not available when you "
+"will not be needing it."
+msgstr ""
+"Afwezigheidsmodus is ingeschakeld en je WordPress Dashboard is niet "
+"beschikbaar wanneer u niet nodig zal hebben."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:295
+msgid ""
+"Your WordPress Dashboard is available 24/7. Do you really update 24 hours a "
+"day? Consider using Away Mode."
+msgstr ""
+"Je WordPress Dashboard is beschikbaar 24/7. Heb je echt 24 uur per dag te "
+"werken? Overweeg het gebruik van Afwezigeheidsmodus."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:340
+msgid "Type of Restriction"
+msgstr "Type beperking"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:347
+msgid "Start Date"
+msgstr "Start Datum"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:354
+msgid "Start Time"
+msgstr "Start Tijd"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:362
+msgid "End Date"
+msgstr "Eind Datum"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:370
+msgid "End Time"
+msgstr "Eind Tijd"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:394
+msgid ""
+"As most sites are only updated at certain times of the day it is not always "
+"necessary to provide access to the WordPress dashboard 24 hours a day, 7 "
+"days a week. The options below will allow you to disable access to the "
+"WordPress Dashboard for the specified period. In addition to limiting "
+"exposure to attackers this could also be useful to disable site access based "
+"on a schedule for classroom or other reasons."
+msgstr ""
+"Zoals de meeste sites, worden alleen bijgewerkt op bepaalde momenten van de "
+"dag, het is niet altijd nodig is om 24 uur per dag, 7 dagen per week toegang "
+"te bieden tot de WordPress dashboard. Met de onderstaande opties kunt u de "
+"toegang tot het WordPress Dashboard voor de opgegeven periode uitschakelen. "
+"Naast het beperken van de blootstelling aan aanvallers kan dit ook nuttig "
+"zijn om toegang tot de site op basis van een tijdschema voor de klas of om "
+"andere redenen uit te schakelen."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:402
+msgid ""
+"Please note that according to your %sWordPress timezone settings%s your "
+"current time is:"
+msgstr ""
+"Houdt u er rekening mee dat afhankelijk van uw %sWordPress timezone "
+"instellingen%s uw huidige tijd is:"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:404
+msgid ""
+"If this is incorrect please correct it on the %sWordPress general settings "
+"page%s by setting the appropriate time zone. Failure to set the correct "
+"timezone may result in unintended lockouts."
+msgstr ""
+"Als dit niet correct is kunt u dit corrigeren op de% sWordPress algemene "
+"instellingen pagina% s door het instellen van de juiste tijdzone. Het niet "
+"op de juiste tijdzone instellen kan leiden tot onbedoelde uitsluiting."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:413
+msgid "Away mode is currently enabled."
+msgstr "Afwezigheidsmodus is nu ingeschakeld"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:418
+msgid ""
+"The dashboard of this website will become unavailable %s%s%s from %s%s%s "
+"until %s%s%s."
+msgstr ""
+"Het dashboard van deze website zal niet meer beschikbaar zijn %s%s%s vanaf %s"
+"%s%s tot %s%s%s."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:418
+msgid "every day"
+msgstr "elke dag"
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:422
+msgid ""
+"The dashboard of this website will become unavailable from %s%s%s on %s%s%s "
+"until %s%s%s on %s%s%s."
+msgstr ""
+"Het dashboard van deze website zal niet meer beschikbaar zijn vanaf %s%s%s "
+"om %s%s%s tot %s%s%s om %s%s%s."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:426
+msgid ""
+"You will not be able to log into this website when the site is unavailable."
+msgstr ""
+"U zult niet in staat in te loggen op deze website wanneer de site niet "
+"beschikbaar is."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:500
+msgid ""
+"Invalid  away mode time listed. The time entered would lock you out of your "
+"site now. Please try again."
+msgstr ""
+"Ongeldige afwezigheidsmodus tijd vermeld. De ingevoerde tijd zou je "
+"buitensluiten van je site. Probeer het opnieuw."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:511
+msgid ""
+"Invalid  away mode time listed. The start time selected is after the end "
+"time selected."
+msgstr ""
+"Ongeldige afwezigheidsmodus tijd vermeld. De gekozen starttijd is na de "
+"eindtijd geselecteerd."
+
+#: modules/free/away-mode/class-itsec-away-mode-admin.php:522
+msgid "Invalid away mode time listed. The period selected already ended."
+msgstr ""
+"Ongeldige afwezigheidsmodus tijd vermeld. De geselecteerde periode is reeds "
+"afgelopen."
+
+#: modules/free/away-mode/class-itsec-away-mode.php:204
+msgid ""
+"A host was prevented from accessing the dashboard due to away-mode "
+"restrictions being in effect"
+msgstr ""
+"Een bezoeker kreeg geen toegang tot het dashboard als gevolg van "
+"afwezigheidsmodus beperkingen die van kracht zijn."
+
+#: modules/free/away-mode/class-itsec-away-mode.php:232
+msgid "Away Mode Triggered"
+msgstr "Afwezigheidsmodus Getriggerd"
+
+#: modules/free/backup/class-itsec-backup-admin.php:51
+msgid "Description"
+msgstr "Beschrijving"
+
+#: modules/free/backup/class-itsec-backup-admin.php:60
+msgid "Make a Database Backup"
+msgstr "Maak een Database Back-up"
+
+#: modules/free/backup/class-itsec-backup-admin.php:68
+msgid "Database Backups"
+msgstr "Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:82
+msgid "Take the Next Steps in Security with BackupBuddy"
+msgstr "Neem de volgende stappen in de Beveiliging met BackupBuddy"
+
+#: modules/free/backup/class-itsec-backup-admin.php:108
+#: modules/free/backup/class-itsec-backup-admin.php:531
+msgid ""
+"One of the best ways to protect yourself from an attack is to have access to "
+"a database backup of your site. If something goes wrong, you can get your "
+"site back by restoring the database from a backup and replacing the files "
+"with fresh ones. Use the button below to create a backup of your database "
+"for this purpose. You can also schedule automated backups and download or "
+"delete previous backups."
+msgstr ""
+"Een van de beste manieren om jezelf te beschermen tegen een aanval is om de "
+"toegang tot een database back-up van uw site. Als er iets mis gaat, kunt u "
+"uw site terug te krijgen door het herstel van de database van een back-up en "
+"het vervangen van de bestanden met de nieuwe. Gebruik de onderstaande knop "
+"om een back-up van uw database te maken voor dit doel. U kunt ook aangeven "
+"geautomatiseerde back-ups en het downloaden of verwijderen eerdere back-ups."
+
+#: modules/free/backup/class-itsec-backup-admin.php:139
+msgid "Tables for Backup"
+msgstr "Tabellen voor Back-up"
+
+#: modules/free/backup/class-itsec-backup-admin.php:139
+msgid "Excluded Tables"
+msgstr "Uitgesloten Tabellen"
+
+#: modules/free/backup/class-itsec-backup-admin.php:168
+msgid ""
+"Checking this box will have the backup script backup all tables in your "
+"database, even if they are not part of this WordPress site."
+msgstr ""
+"Vink dit vakje aan en er wordt een back-up gemaakt hebben alle tabellen in "
+"uw database, zelfs als ze geen deel uitmaken van deze WordPress site."
+
+#: modules/free/backup/class-itsec-backup-admin.php:194
+msgid "Your site is performing scheduled database and file backups."
+msgstr "Uw site voert geplande back-ups uit van database en bestanden."
+
+#: modules/free/backup/class-itsec-backup-admin.php:209
+msgid ""
+"BackupBuddy is installed but backups do not appear to have been scheduled. "
+"Please schedule backups."
+msgstr ""
+"BackupBuddy is geïnstalleerd, maar back-ups lijken niet te zijn gepland. "
+"Gelieve plannen van back-ups."
+
+#: modules/free/backup/class-itsec-backup-admin.php:224
+msgid "You are using a 3rd party backup solution."
+msgstr "U maakt gebruik van een 3de partij back-up oplossing."
+
+#: modules/free/backup/class-itsec-backup-admin.php:239
+msgid ""
+"It looks like you have a 3rd-party backup solution in place but are not "
+"using it. Please turn on scheduled backups."
+msgstr ""
+"Het ziet eruit alsof je een 3de-partij back-up oplossing op zijn plaats, "
+"maar gebruikt het niet. Gelieve in te schakelen geplande back-ups."
+
+#: modules/free/backup/class-itsec-backup-admin.php:247
+msgid ""
+"Your site is performing scheduled database backups but is not backing up "
+"files. Consider purchasing or scheduling BackupBuddy to protect your "
+"investment."
+msgstr ""
+"Uw site  plant databasebackups in maar niet een back-up van bestanden. "
+"Overweeg de aanschaf of het plannen van BackupBuddy om uw investering te "
+"beschermen."
+
+#: modules/free/backup/class-itsec-backup-admin.php:255
+msgid "Your site is not performing any scheduled database backups."
+msgstr "Uw site voert geen geplande database-back-ups uit"
+
+#: modules/free/backup/class-itsec-backup-admin.php:283
+msgid "Enable Scheduled Database Backups"
+msgstr "Inschakelen Geplande Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:321
+msgid "Tables with data that does not need to be backed up"
+msgstr "Tabellen met gegevens die niet hoeft te worden gebackupt"
+
+#: modules/free/backup/class-itsec-backup-admin.php:343
+msgid ""
+"Some plugins can create log files in your database. While these logs might "
+"be handy for some functions, they can also take up a lot of space and, in "
+"some cases, even make backing up your database almost impossible. Select log "
+"tables above to exclude their data from the backup. Note: The table itself "
+"will be backed up, but not the data in the table."
+msgstr ""
+"Sommige plug-ins kunnen logbestanden maken in uw database. Hoewel deze "
+"logbestanden handig zouden kunnen zijn voor sommige functies, nemen ze veel "
+"ruimte in, en in sommige gevallen, zelfs een back-up van uw database bijna "
+"onmogelijk. Selecteer bovenstaande log tabellen om hun gegevens uit te "
+"sluiten van de back-up. Noot: De tabel zelf wordt een back-up, maar niet de "
+"gegevens in de tabel."
+
+#: modules/free/backup/class-itsec-backup-admin.php:383
+msgid "Configure Database Backups"
+msgstr "Configureer Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:390
+msgid "Enable Database Backups"
+msgstr "Inschakel Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:397
+msgid "Backup Schedule Settings"
+msgstr "Back-up Planning Instellingen"
+
+#: modules/free/backup/class-itsec-backup-admin.php:405
+msgid "Schedule Database Backups"
+msgstr "Planning Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:413
+msgid "Backup Interval"
+msgstr "Back-up Interval"
+
+#: modules/free/backup/class-itsec-backup-admin.php:421
+msgid "Backup Full Database"
+msgstr "Back-up Volle Database"
+
+#: modules/free/backup/class-itsec-backup-admin.php:429
+msgid "Backup Method"
+msgstr "Back-up Methode"
+
+#: modules/free/backup/class-itsec-backup-admin.php:437
+msgid "Backup Location"
+msgstr "Back-up Locatie"
+
+#: modules/free/backup/class-itsec-backup-admin.php:445
+msgid "Backups to Retain"
+msgstr "Back-ups te behouden"
+
+#: modules/free/backup/class-itsec-backup-admin.php:453
+msgid "Compress Backup Files"
+msgstr "Comprimeer back-up bestanden"
+
+#: modules/free/backup/class-itsec-backup-admin.php:461
+msgid "Exclude Tables"
+msgstr "Uitsluiting tabelen"
+
+#: modules/free/backup/class-itsec-backup-admin.php:493
+msgid "The number of days between database backups."
+msgstr "Het aantal dagen tussen de database back-ups."
+
+#: modules/free/backup/class-itsec-backup-admin.php:517
+msgid "The path on your machine where backup files should be stored."
+msgstr "Het pad op uw machine waar back-up bestanden moeten worden opgeslagen."
+
+#: modules/free/backup/class-itsec-backup-admin.php:557
+msgid ""
+"Press the button below to create a backup of your WordPress database. If you "
+"have \"Send Backups By Email\" selected in automated backups you will "
+"receive an email containing the backup file."
+msgstr ""
+"Druk op onderstaande knop om een back-up van uw WordPress database te maken. "
+"Als u \"Stuur Back-ups via e-mail\" geselecteerd in geautomatiseerde back-"
+"ups kunt u een e-mail met de back-up bestand te ontvangen."
+
+#: modules/free/backup/class-itsec-backup-admin.php:558
+msgid "Create Database Backup"
+msgstr "Creëer Database Back-up"
+
+#: modules/free/backup/class-itsec-backup-admin.php:559
+msgid "Adjust Backup Settings"
+msgstr "Aanpassen Back-up Instellingen"
+
+#: modules/free/backup/class-itsec-backup-admin.php:572
+msgid ""
+"A database backup is just a simple start. BackupBuddy goes one step further "
+"to provide complete backups of all your site files (including image and "
+"media files, themes, plugins, widgets and settings) - which aren't included "
+"in a database backup. With BackupBuddy you can customize backup schedules, "
+"send your backup files  safely off-site to remote storage destinations, "
+"restore your site quickly & easily and even move your whole site to a new "
+"host or domain."
+msgstr ""
+"Een database back-up is gewoon een simpel begin. BackupBuddy gaat nog een "
+"stap verder om volledige back-ups van al uw website bestanden (inclusief "
+"afbeelding en media-bestanden, thema's, plugins, widgets en instellingen) "
+"leveren - die niet zijn opgenomen in een database back-up. Met BackupBuddy "
+"kunt u back-up schema's aanpassen, stuur uw back-up bestanden veilig off-"
+"site naar externe opslag bestemmingen, uw site snel en eenvoudig te "
+"herstellen en zelfs te bewegen je hele site naar een nieuwe host of domein."
+
+#: modules/free/backup/class-itsec-backup-admin.php:573
+msgid "5 Reasons You Need a Complete Backup Strategy"
+msgstr "5 Redenen; Noodzaak van een complete back-strategie"
+
+#: modules/free/backup/class-itsec-backup-admin.php:575
+msgid "Database backups aren't enough."
+msgstr "Database back-ups zijn niet genoeg."
+
+#: modules/free/backup/class-itsec-backup-admin.php:575
+msgid ""
+"You need complete backups of your entire site (including images and media "
+"files, themes, plugins, widgets and settings)."
+msgstr ""
+"Je hebt nodig een volledige back-up van uw gehele site (inclusief "
+"afbeeldingen en mediabestanden, thema's, plugins, widgets en instellingen)."
+
+#: modules/free/backup/class-itsec-backup-admin.php:576
+msgid "Backup files should be protected."
+msgstr "Back-up-bestanden moeten worden beschermd."
+
+#: modules/free/backup/class-itsec-backup-admin.php:576
+msgid ""
+"Send and store them safely off-site to a secure remote destination (like "
+"email, Dropbox, Amazon S3, etc.)"
+msgstr ""
+"Verzenden en bewaar ze veilig off-site naar een beveiligde externe "
+"bestemming (zoals e-mail, Dropbox, Amazon S3, etc.)"
+
+#: modules/free/backup/class-itsec-backup-admin.php:577
+msgid "Backups should be automated and scheduled so you don't forget."
+msgstr ""
+"Back-ups moeten worden geautomatiseerd en gepland, zodat u niet vergeet."
+
+#: modules/free/backup/class-itsec-backup-admin.php:577
+msgid ""
+"Set daily, weekly or monthly backups that automatically send backups off-"
+"site."
+msgstr ""
+"Stel dagelijks, wekelijkse of maandelijkse back-ups in, die automatisch back-"
+"ups sturen off-site."
+
+#: modules/free/backup/class-itsec-backup-admin.php:578
+msgid "Restoring your site should be quick and easy."
+msgstr "Het herstellen van uw site moet snel en eenvoudig zijn."
+
+#: modules/free/backup/class-itsec-backup-admin.php:578
+msgid ""
+"If you get hacked or your server crashes, you shouldn't have to worry about "
+"restoring your site. Reliable backups mean nothing gets corrupted or broken "
+"during the restore process."
+msgstr ""
+"Als je wordt gehackt of je server crasht, moet je geen zorgen te maken over "
+"het herstellen van uw site. Betrouwbare back-ups betekenen niets, als ze "
+"beschadigd raken of gebroken tijdens het herstelproces."
+
+#: modules/free/backup/class-itsec-backup-admin.php:579
+msgid "You should own your backup files."
+msgstr "Je moet je eigen back-up bestanden bewaren."
+
+#: modules/free/backup/class-itsec-backup-admin.php:579
+msgid ""
+"Don't just rely on a host or service. It's your site, so you should own "
+"everything on it."
+msgstr ""
+"Niet alleen vertrouwen op een host of service. Het is uw site, dus je moet "
+"alles bezitten op."
+
+#: modules/free/backup/class-itsec-backup-admin.php:582
+msgid "Learn more about BackupBuddy"
+msgstr "Leer Meer over BackupBuddy"
+
+#: modules/free/backup/class-itsec-backup-admin.php:604
+msgid "Save Locally and Email"
+msgstr "Bewaar Lokaal en Email"
+
+#: modules/free/backup/class-itsec-backup-admin.php:605
+msgid "Email Only"
+msgstr "Alleen Email"
+
+#: modules/free/backup/class-itsec-backup-admin.php:606
+msgid "Save Locally Only"
+msgstr "Bewaar Alleen Lokaal"
+
+#: modules/free/backup/class-itsec-backup-admin.php:608
+msgid "Backup Save Method"
+msgstr "Back-up Bewaar Methode"
+
+#: modules/free/backup/class-itsec-backup-admin.php:609
+msgid ""
+"Select what we should do with your backup file. You can have it emailed to "
+"you, saved locally or both."
+msgstr ""
+"Selecteer wat we moeten doen met uw back-upbestand. Het kan naar worden "
+"gemaild, lokaal bewaard of beide."
+
+#: modules/free/backup/class-itsec-backup-admin.php:648
+msgid "Back up your site"
+msgstr "Back-up jouw site"
+
+#: modules/free/backup/class-itsec-backup-admin.php:649
+msgid ""
+"We recommend making a database backup before you get started securing your "
+"site."
+msgstr ""
+"We raden aan het maken van een database back-up voordat u aan de slag het "
+"beveiligen van uw website."
+
+#: modules/free/backup/class-itsec-backup-admin.php:650
+msgid "Make a backup"
+msgstr "Maak een Back-up"
+
+#: modules/free/backup/class-itsec-backup-admin.php:652
+msgid "Backup completed. Please check your email or uploads folder."
+msgstr "Back-up voltooid. Controleer uw e-mail of upload map."
+
+#: modules/free/backup/class-itsec-backup-admin.php:653
+msgid "Whoops. Something went wrong. Check the backup page or contact support."
+msgstr ""
+"Oeps. Iets ging mis. Controleer de back-up pagina of contracteer "
+"ondersteuning."
+
+#: modules/free/backup/class-itsec-backup-admin.php:677
+msgid ""
+"The number of backups that should be kept on disk. This only applies to "
+"backups saved to disk. Set to \"0\" to disable."
+msgstr ""
+"Het aantal back-ups die op schijf moet worden bewaard. Dit geldt alleen voor "
+"back-ups opgeslagen op schijf. Ingesteld op \"0 \" om uit te schakelen."
+
+#: modules/free/backup/class-itsec-backup-admin.php:825
+msgid "Zip Database Backups"
+msgstr "Zip Database Back-ups"
+
+#: modules/free/backup/class-itsec-backup-admin.php:826
+msgid "You may need to turn this off if you are having problems with backups."
+msgstr ""
+"Het kan nodig zijn om deze uit te schakelen als u problemen ondervindt met "
+"back-ups."
+
+#: modules/free/backup/class-itsec-backup.php:50
+msgid "emailed to backup recipients and saved locally."
+msgstr "gemaild naar back-up ontvangers en lokaal bewaard."
+
+#: modules/free/backup/class-itsec-backup.php:53
+msgid "emailed to backup recipients."
+msgstr "gemaild naar backup ontvangers."
+
+#: modules/free/backup/class-itsec-backup.php:56
+msgid "saved locally."
+msgstr "Bewaar Lokaal"
+
+#: modules/free/backup/class-itsec-backup.php:73
+msgid ""
+"Something went wrong with your backup. It looks like another process might "
+"already be trying to backup your database. Please try again in a few "
+"minutes. If the problem persists please contact support."
+msgstr ""
+"Er ging iets mis met uw back-up. Het ziet eruit als een ander proces al "
+"probeert om een back-up te maken van je database. Probeer het over een paar "
+"minuten. Als het probleem zich blijft voordoen, neem contact op met "
+"ondersteuning."
+
+#: modules/free/backup/class-itsec-backup.php:211
+msgid "Attached is the backup file for the database powering"
+msgstr "Bijgevoegd is het back-upbestand voor de database voor de site:"
+
+#: modules/free/backup/class-itsec-backup.php:211
+msgid " taken"
+msgstr " genomen"
+
+#: modules/free/backup/class-itsec-backup.php:215
+msgid "Site Database Backup"
+msgstr "Site Database Back-up"
+
+#: modules/free/backup/class-itsec-backup.php:288
+#: modules/free/backup/class-itsec-backup.php:307
+msgid "Error"
+msgstr "Fout"
+
+#: modules/free/backup/class-itsec-backup.php:289
+msgid "saved locally but email to backup recipients could not be sent."
+msgstr "bewaard lokaal maar email naar ontvangers kon niet verzonden worden."
+
+#: modules/free/backup/class-itsec-backup.php:295
+#: modules/free/backup/class-itsec-backup.php:314
+#: modules/free/backup/class-itsec-backup.php:323
+msgid "Success"
+msgstr "Succes"
+
+#: modules/free/backup/class-itsec-backup.php:296
+msgid "emailed to backup recipients and saved locally"
+msgstr "gemaild naar back-up ontvangers en lokaal bewaard"
+
+#: modules/free/backup/class-itsec-backup.php:308
+msgid "email to backup recipients could not be sent."
+msgstr "email naar ontvangers kon niet verzonden worden."
+
+#: modules/free/backup/class-itsec-backup.php:315
+msgid "emailed to backup recipients"
+msgstr "gemaild naar back-up ontvangers"
+
+#: modules/free/backup/class-itsec-backup.php:324
+msgid "saved locally"
+msgstr "bewaar lokaal"
+
+#: modules/free/backup/class-itsec-backup.php:345
+msgid "Database Backup Executed"
+msgstr "Database Back-up Uitsluiting"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:44
+msgid "Banned Users"
+msgstr "Verbannen Gebruikers"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:104
+msgid ""
+"Use the guidelines below to enter user agents that will not be allowed "
+"access to your site."
+msgstr ""
+"Gebruik de onderstaande richtlijnen om gebruikersprofielen in te voeren die "
+"geen toegang worden toegestaan tot uw site."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:106
+msgid "Enter only 1 user agent per line."
+msgstr "Voer 1 gebruikersprofiel in per regel"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:129
+msgid "Enable HackRepair.com's blacklist feature"
+msgstr "Schakel HackRepair.com's zwartelijst functie in"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:130
+msgid ""
+"As a getting-started point you can include the excellent blacklist developed "
+"by Jim Walker of <a href=\"http://hackrepair.com/blog/how-to-block-bots-from-"
+"seeing-your-website-bad-bots-and-drive-by-hacks-explained\" target=\"_blank"
+"\">HackRepair.com</a>."
+msgstr ""
+"Als een goede opstart punt kunt u ook de uitstekende zwarte lijst ontwikkeld "
+"door Jim Walker invoeren zie: <a href=\"http://hackrepair.com/blog/how-to-"
+"block-bots-from-seeing-your-website-bad-bots-and-drive-by-hacks-explained\" "
+"target=\"_blank\">HackRepair.com</a>."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:152
+msgid "Enable ban users"
+msgstr "Inschakelen verban gebruikers"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:181
+msgid ""
+"Use the guidelines below to enter hosts that will not be allowed access to "
+"your site. Note you cannot ban yourself."
+msgstr ""
+"Gebruik de onderstaande richtlijnen om bezoekers die geen toegang mogen "
+"worden verleend tot uw site in te voeren. Opmerking je kunt jezelf niet "
+"verbieden."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:183
+msgid "You may ban users by individual IP address or IP address range."
+msgstr ""
+"Je kunt gebruikers verbannen door individuele IP adressen of IP adressen "
+"bereik"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:398
+msgid "You are blocking known bad hosts and agents with the ban users tool."
+msgstr ""
+"Je blokkeert bekende slechte bezoekers en personen met de verban gebruikers "
+"tool."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:406
+msgid ""
+"You are not blocking any users that are known to be a problem. Consider "
+"turning on the Ban Users feature."
+msgstr ""
+"U blokkeert niet gebruikers waarvan bekend is dat zij problemen veroorzaken. "
+"Denk aan het inschakelen van de Verban Gebruikers functie."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:428
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:452
+msgid "Default Blacklist"
+msgstr "Standaard Zwartelijst"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:436
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:444
+msgid "Configure Ban Users"
+msgstr "Configureer Verban Gebruikers"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:461
+msgid "Ban Users"
+msgstr "Verban Gebruikers"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:470
+msgid "Ban Hosts"
+msgstr "Ban Bezoekers"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:479
+msgid "Ban User Agents"
+msgstr "Verban Gebruikersprofielen"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:501
+msgid ""
+"This feature allows you to completely ban hosts and user agents from your "
+"site without having to manage any configuration of your server. Any IP "
+"addresses or user agents found in the lists below will not be allowed any "
+"access to your site."
+msgstr ""
+"Deze functie stelt u in staat om bezoekers en personen van uw site volledig "
+"te verbieden zonder enige configuratie van uw server. Elke IP-adressen of "
+"personen gevonden in de onderstaande lijst zal niet worden toegestaan ​​voor "
+"een benadering van uw site."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:632
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:654
+msgid ""
+"Note that the ban users feature has been disabled until the following errors "
+"are corrected:"
+msgstr ""
+"Merk op dat het verbod gebruikers functie is uitgeschakeld, totdat de "
+"volgende fouten worden gecorrigeerd:"
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:636
+msgid "is not a valid address in the ban users box."
+msgstr "is geen geldig adres in de verbande gebruikers box."
+
+#: modules/free/ban-users/class-itsec-ban-users-admin.php:658
+msgid "is not a valid address as it has been white listed."
+msgstr "is geen geldig adres zoals het is op de witte lijst."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:39
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:247
+msgid "Brute Force Protection"
+msgstr "Brute Forceer Protectie"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:94
+msgid ""
+"Immediately ban a host that attempts to login using the \"admin\" username."
+msgstr ""
+"Onmiddellijk verbannen een bezoeker die probeert in te loggen met behulp van "
+"de \"admin\" gebruikersnaam."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:98
+msgid ""
+"You are still using an account with the username \"admin.\" Please rename it "
+"before using this feature"
+msgstr ""
+"U bent nog steeds met een account met de gebruikersnaam \"admin.\" Hernoem "
+"het voordat u deze functie gebruikt"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:121
+msgid "The number of minutes in which bad logins should be remembered."
+msgstr ""
+"Het aantal minuten waarin ongeldige inlogpogingen mag niet worden vergeten."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:143
+msgid "Enable brute force protection."
+msgstr "Inschakel Brute Forceer Protectie"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:165
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:188
+msgid "Attempts"
+msgstr "Pogingen"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:166
+msgid ""
+"The number of login attempts a user has before their host or computer is "
+"locked out of the system. Set to 0 to record bad login attempts without "
+"locking out the host."
+msgstr ""
+"Het aantal inlogpogingen van een gebruiker heeft voordat hun IP of de "
+"computer buitengesloten is uit het systeem. Zet op 0 om ongeldige "
+"inlogpogingen zonder het buitensluiten van de bezoeker."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:189
+msgid ""
+"The number of login attempts a user has before their username is locked out "
+"of the system. Note that this is different from hosts in case an attacker is "
+"using multiple computers. In addition, if they are using your login name you "
+"could be locked out yourself. Set to zero to log bad login attempts per user "
+"without ever locking the user out (this is not recommended)"
+msgstr ""
+"Het aantal inlogpogingen van een gebruiker heeft voor hun gebruikersnaam "
+"wordt buitengesloten van het systeem. Merk op dat dit verschilt van "
+"bezoekers in het geval van een aanvaller is het gebruik van meerdere "
+"computers. Bovendien, als ze met behulp van uw login naam, zou jezelf kunnen "
+"worden buitengesloten. Zet op nul, om ongeldige inlogpogingen per gebruiker, "
+"zonder dat het ooit lijd tot het blokkeren van de gebruiker (dit is niet aan "
+"te raden)"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:207
+msgid "Your login area is protected from brute force attacks."
+msgstr "Uw login gebied wordt beschermd tegen brute forceer aanvallen."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:212
+msgid "Your login area is not protected from brute force attacks."
+msgstr "Uw login gebied wordt niet beschermd tegen brute forceer aanvallen."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:232
+msgid "Enable Brute Force Protection"
+msgstr "Inschakel Brute Forceer Protectie"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:239
+msgid "Brute Force Protection Settings"
+msgstr "Brute Forceer Protectie Instellingen"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:254
+msgid "Max Login Attempts Per Host"
+msgstr "Max Inlogpogingen Per Bezoeker"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:261
+msgid "Max Login Attempts Per User"
+msgstr "Max Inlogpogingen Per Gebruiker"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:268
+msgid "Minutes to Remember Bad Login (check period)"
+msgstr "Minuten om te onthouden ongeldige inlogpoging (controle periode)"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:275
+msgid "Automatically ban \"admin\" user"
+msgstr "Automatisch verban \"admin\" gebruiker"
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:319
+msgid ""
+"If one had unlimited time and wanted to try an unlimited number of password "
+"combinations to get into your site they eventually would, right? This method "
+"of attack, known as a brute force attack, is something that WordPress is "
+"acutely susceptible by default as the system doesn't care how many attempts "
+"a user makes to login. It will always let you try again. Enabling login "
+"limits will ban the host user from attempting to login again after the "
+"specified bad login threshold has been reached."
+msgstr ""
+"Als men ongelimiteerde tijd had  en een onbeperkt aantal wachtwoord "
+"combinaties probeert, krijgen ze toegang tot uw site, uiteindelijk zou, "
+"toch? Deze methode van de aanval, die bekend staat als een brute forceer "
+"aanval, is iets dat WordPress acuut gevoelig voor is, standaard als het "
+"systeem niet schelen kan hoeveel pogingen een gebruiker mag maken om in te "
+"loggen. Het laat je het altijd opnieuw proberen. Inschakelen van inlogpoging "
+"limieten zal de gebruiker uit worden gesloten van een poging om opnieuw in "
+"te loggen, na de opgegeven ongeldige inlogpogingen drempel wordt bereikt."
+
+#: modules/free/brute-force/class-itsec-brute-force-admin.php:371
+msgid "Invalid Login Attempts"
+msgstr "Ongeldige Inlogpogingen"
+
+#: modules/free/brute-force/class-itsec-brute-force-log.php:85
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: modules/free/brute-force/class-itsec-brute-force.php:146
+msgid "too many bad login attempts"
+msgstr "teveel ongeldige inlogpogingen"
+
+#: modules/free/brute-force/class-itsec-brute-force.php:154
+msgid "user tried to login as \"admin.\""
+msgstr "gebruiker probeerde in te loggen als  \"admin.\""
+
+#: modules/free/brute-force/class-itsec-brute-force.php:179
+msgid "Invalid Login Attempt"
+msgstr "Ongeldige Inlogpoging"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:46
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:204
+msgid "Change Content Directory"
+msgstr "Verander Inhoud Mapnaam"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:87
+msgid "You have renamed the wp-content directory of your site."
+msgstr "Je hebt de wp-content mapnaam van je site hernoemd."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:95
+msgid "You should rename the wp-content directory of your site."
+msgstr "Je zou de wp-content mapnaam van je site kunnen hernoemen."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:118
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:93
+msgid "Security check"
+msgstr "Beveiligings Controle"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:139
+msgid ""
+"By default, WordPress puts all your content (including images, plugins, "
+"themes, uploads and more) in a directory called \"wp-content.\" This default "
+"folder name makes it easy for attackers to scan for files with security "
+"vulnerabilities on your WordPress installation because they know where the "
+"vulnerable files are located. Moving the \"wp-content\" folder can make it "
+"more difficult for an attacker to find problems with your site, as scans of "
+"your site's file system will not produce any results."
+msgstr ""
+"Standaard zet WordPress al uw inhoud (met inbegrip van afbeeldingen, "
+"plugins, thema's, upload en meer) in een map met de naam \"wp-content.\" Dit "
+"standaardmap naam maakt het eenvoudig voor aanvallers om te scannen naar "
+"bestanden met beveiligingsproblemen op uw WordPress-installatie, omdat ze "
+"weten waar de kwetsbare bestanden zich bevinden. Het verplaatsen van de map "
+"\"wp-content\" kan het moeilijker maken voor een aanvaller om de problemen "
+"met uw site te vinden, zoals scans van uw site bestandssysteem geen "
+"resultaten zal opleveren."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:140
+msgid ""
+"This tool will not allow further changes to your wp-content folder once it "
+"has been renamed in order to avoid accidentally breaking the site later. "
+"Uninstalling this plugin will not revert the changes made by this page."
+msgstr ""
+"Deze functie zal geen verdere wijzigingen in uw wp-content map maken, ​​als "
+"het eenmaal is hernoemd om te voorkomen dat de site crasht. Met de "
+"deinstallatie van deze plugin zal het niet terug gaan wijzigen."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:141
+msgid ""
+"Changing the name of the wp-content directory may in fact break plugins and "
+"themes that have \"hard-coded\" it into their design rather than calling it "
+"dynamically."
+msgstr ""
+"Het veranderen van de naam van de wp-content map kan in feite plug-ins en "
+"thema's crashen die zijn \"hard-coded\"  in hun ontwerp in plaats van "
+"dynamisch."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:142
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:112
+msgid "before using this tool."
+msgstr "voor gebruik van dit gereedschap"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:143
+msgid ""
+"Please note: Changing the name of your wp-content directory on a site that "
+"already has images and other content referencing it will break your site. "
+"For this reason, we highly recommend you only try this technique on a fresh "
+"WordPress install."
+msgstr ""
+"Let op: Als u de naam veranderd van uw wp-content mapnaam op een site die al "
+"afbeeldingen en andere inhoud verwijzingen bevat, zal uw site crashen. "
+"Daarom raden we u alleen aan, deze techniek op een verse WordPress "
+"installatie te gebruiken."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:156
+msgid ""
+"Congratulations! You have already renamed your \"wp-content\" directory."
+msgstr "Gefeliciteerd! Je hebt uw \"wp-content\" mapnaam hernoemd"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:157
+msgid "Your current content directory is: "
+msgstr "Je huidige inhoud directorieis:"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:159
+msgid "No further actions are available on this page."
+msgstr "Geen verdere acties zijn beschikbaar op deze pagina."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:179
+msgid "Enable Change Directory Name"
+msgstr "Inschakelen Verandering Mapnaam"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:186
+msgid "Check this box to enable content directory renaming."
+msgstr "Vink deze box aan om de inhoud hernoeming in te schakelen."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:192
+msgid "Directory Name"
+msgstr "Mapnaam"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:198
+msgid ""
+"Enter a new directory name to replace \"wp-content.\" You may need to log in "
+"again after performing this operation."
+msgstr ""
+"Voer een nieuwe mapnaam in om de \"wp-content\" te veranderen. Het kan nodig "
+"zijn opnieuw in te loggen na het uitvoeren van deze operatie."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:216
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:175
+msgid "You must allow this plugin to write to the wp-config.php file on the"
+msgstr ""
+"U moet het mogelijk maken deze plugin te schrijven aan de wp-config.php "
+"bestand op de"
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:218
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:177
+msgid "page to use this feature."
+msgstr "pagina om deze functie te gebruiken."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:283
+msgid ""
+"Please choose a directory name that is greater than 2 characters in length."
+msgstr "Kies een mapnaam die groter is dan 2 tekens lang zijn."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:290
+msgid "You have not chosen a new name for wp-content. Nothing was saved."
+msgstr ""
+"Je hebt nog niet een nieuwe naam gekozen voor wp-content. Niets is bewaard."
+
+#: modules/free/content-directory/class-itsec-content-directory-admin.php:321
+msgid "Unable to rename the wp-content folder. Operation cancelled."
+msgstr "Onmogelijk om de map wp-content te hernoemen. Bewerking geannuleerd."
+
+#: modules/free/core/class-itsec-core-admin.php:35
+msgid "Sync 10 Sites For Free"
+msgstr "Sync. 10 Sites Gratis"
+
+#: modules/free/core/class-itsec-core-admin.php:44
+msgid "Download Our WordPress Security Pocket Guide"
+msgstr "Download Onze WordPress Security Pocket Handleiding"
+
+#: modules/free/core/class-itsec-core-admin.php:53
+msgid "Need Help Securing Your Site?"
+msgstr "Help Nodig Bij Beveiligen Jouw Site?"
+
+#: modules/free/core/class-itsec-core-admin.php:63
+msgid "Complete Your Security Strategy With BackupBuddy"
+msgstr "Voltooi Uw Veiligheidsstrategie Met BackupBuddy"
+
+#: modules/free/core/class-itsec-core-admin.php:75
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: modules/free/core/class-itsec-core-admin.php:95
+msgid "Get Pro Setup"
+msgstr "Krijg Pro Setup"
+
+#: modules/free/core/class-itsec-core-admin.php:96
+msgid "Get Support"
+msgstr "Verkrijg Ondersteuning"
+
+#: modules/free/core/class-itsec-core-admin.php:111
+msgid ""
+"BackupBuddy is the complete backup, restore and migration solution for your "
+"WordPress site. Schedule automated backups, store your backups safely off-"
+"site and restore your site quickly & easily."
+msgstr ""
+"BackupBuddy een complete back-up, herstel en migratie-oplossing voor uw "
+"WordPress site. Plan automatische back-ups, bewaar uw back-ups veilig off-"
+"site en uw site snel en gemakkelijk te herstellen."
+
+#: modules/free/core/class-itsec-core-admin.php:112
+msgid "25% off BackupBuddy with coupon code"
+msgstr "25% af, BackupBuddy met kortingscode"
+
+#: modules/free/core/class-itsec-core-admin.php:112
+msgid "BACKUPPROTECT"
+msgstr "BACKUPPROTECT"
+
+#: modules/free/core/class-itsec-core-admin.php:113
+msgid "Get BackupBuddy"
+msgstr "Verkrijg BackupBuddy"
+
+#: modules/free/core/class-itsec-core-admin.php:128
+msgid "Watch the Walk-Through Video"
+msgstr "Let op de Walk-Through Video"
+
+#: modules/free/core/class-itsec-core-admin.php:130
+msgid "In this short video, we walk through"
+msgstr "In deze korte film lopen er door"
+
+#: modules/free/core/class-itsec-core-admin.php:130
+msgid "how to get started securing your site"
+msgstr "hoe te starten met het beveiligen van je site"
+
+#: modules/free/core/class-itsec-core-admin.php:130
+msgid "with iThemes Security."
+msgstr "met iThemes Beveiliging"
+
+#: modules/free/core/class-itsec-core-admin.php:136
+msgid ""
+"Website Security is a complicated subject, but we have experts that can help."
+msgstr ""
+"Website beveiliging is een gecompliceerde ontwerp, maar we hebben experts "
+"die kunnen helpen."
+
+#: modules/free/core/class-itsec-core-admin.php:137
+#: modules/free/help/class-itsec-help-admin.php:43
+msgid ""
+"Get added peace of mind with professional support from our expert team and "
+"pro features to take your site security to the next level with iThemes "
+"Security Pro."
+msgstr ""
+"Krijg extra gemoedsrust met professionele ondersteuning van ons team van "
+"experts en professionele functies om uw veiligheid van de site op te nemen "
+"naar het volgende niveau met iThemes Security Pro."
+
+#: modules/free/core/class-itsec-core-admin.php:138
+msgid "Get Support and Pro Features"
+msgstr "Verkrijg ondersteuning en Pro Functies"
+
+#: modules/free/core/class-itsec-core-admin.php:153
+#: modules/free/help/class-itsec-help-admin.php:38
+msgid ""
+"Since you are using the free version of iThemes Security from WordPress.org, "
+"you can get free support from the WordPress community."
+msgstr ""
+"Omdat u gebruik maakt van de gratis versie van iThemes Security van "
+"WordPress.org, kunt u gratis ondersteuning van de WordPress community te "
+"krijgen."
+
+#: modules/free/core/class-itsec-core-admin.php:154
+#: modules/free/help/class-itsec-help-admin.php:39
+msgid "Get Free Support"
+msgstr "Verkrijg Gratis Ondersteuning"
+
+#: modules/free/core/class-itsec-core-admin.php:155
+msgid ""
+"Be sure your site has been properly secured by having one of our security "
+"experts tailor iThemes Security settings to the specific needs of this site."
+msgstr ""
+"Zorg ervoor dat uw site is goed beveiligd door het op maat maken van iThemes "
+"beveiligingsinstellingen aan de specifieke behoeften van deze site door onze "
+"experts."
+
+#: modules/free/core/class-itsec-core-admin.php:156
+#: modules/free/help/class-itsec-help-admin.php:49
+msgid "Have an expert secure my site"
+msgstr "Verkrijg een expert voor jouw site te beveiligen"
+
+#: modules/free/core/class-itsec-core-admin.php:157
+msgid ""
+"Get added peace of mind with professional support from our expert team and "
+"pro features with iThemes Security Pro."
+msgstr ""
+"Krijg extra gemoedsrust met professionele ondersteuning van ons team van "
+"experts en professionele functies met iThemes Security Pro."
+
+#: modules/free/core/class-itsec-core-admin.php:158
+#: modules/free/help/class-itsec-help-admin.php:44
+msgid "Get iThemes Security Pro"
+msgstr "Verkrijg iThemes Beveiliging Pro"
+
+#: modules/free/core/class-itsec-core-admin.php:183
+msgid ""
+"Get tips for securing your site + the latest WordPress security updates, "
+"news and releases from iThemes."
+msgstr ""
+"Krijg tips voor het beveiligen van uw site + de nieuwste WordPress "
+"beveiliging updates, nieuws en releases van iThemes."
+
+#: modules/free/core/class-itsec-core-admin.php:190
+msgid "Email Address"
+msgstr "Email Adres"
+
+#: modules/free/core/class-itsec-core-admin.php:194
+msgid "Subscribe"
+msgstr "Abonneer"
+
+#: modules/free/core/class-itsec-core-admin.php:220
+msgid "Manage updates remotely for up to 10 WordPress sites today for free!"
+msgstr ""
+"Beheer updates op afstand voor maximaal 10 WordPress websites vandaag nog "
+"gratis!"
+
+#: modules/free/core/class-itsec-core-admin.php:221
+msgid ""
+"Integrated with iThemes Security, so you can release lockouts and turn Away "
+"Mode on or off right from your Sync dashboard or your phone."
+msgstr ""
+"Geïntegreerd met iThemes beveiliging, zodat u buitensluitingen kan vrijgeven "
+"en zet afwezigheidsmodus aan of uit vanaf uw Sync dashboard of uw telefoon."
+
+#: modules/free/core/class-itsec-core-admin.php:223
+msgid "Try iThemes Sync for Free"
+msgstr "Probeer iThemes Sync gratis"
+
+#: modules/free/core/class-itsec-core-admin.php:255
+msgid "is almost ready."
+msgstr "bijna gereed."
+
+#: modules/free/core/class-itsec-core-admin.php:255
+msgid "Secure Your Site Now"
+msgstr "Beveilig Je Site Nu"
+
+#: modules/free/core/class-itsec-core-admin.php:255
+msgid "See what's new in 4.0"
+msgstr "Zie wat is nieuw in 4.0"
+
+#: modules/free/core/class-itsec-core-admin.php:329
+msgid "It looks like you've been enjoying"
+msgstr "Het lijkt erop dat je al genieten van"
+
+#: modules/free/core/class-itsec-core-admin.php:329
+msgid "for at least 30 days. It's time to take the next step."
+msgstr ""
+"gedurende ten minste 30 dagen. Het is tijd om de volgende stap te zetten."
+
+#: modules/free/core/class-itsec-core-admin.php:329
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar Pro"
+
+#: modules/free/core/class-itsec-core-admin.php:329
+msgid "Rate it 5★'s"
+msgstr "Beoordeel het 5★'s"
+
+#: modules/free/core/class-itsec-core-admin.php:329
+msgid "Tell Your Followers"
+msgstr "Vertel het je volgers"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:40
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:165
+msgid "Change Database Prefix"
+msgstr "Verander Database Prefix"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:62
+msgid "Your database table prefix is not using"
+msgstr "Uw database tabel prefix wordt gebruikt niet"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:70
+msgid "Your database table prefix should not be"
+msgstr "Uw database tabel prefix mag niet zijn"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:110
+msgid ""
+"By default, WordPress assigns the prefix \"wp\" to all tables in the "
+"database where your content, users, and objects exist. For potential "
+"attackers, this means it is easier to write scripts that can target "
+"WordPress databases as all the important table names for 95% of sites are "
+"already known. Changing the \"wp\" prefix makes it more difficult for tools "
+"that are trying to take advantage of vulnerabilities in other places to "
+"affect the database of your site."
+msgstr ""
+"Standaard WordPress wijst het voorvoegsel \"wp\" aan alle tabellen in de "
+"database, waar je content, gebruikers en objecten bestaan​​. Voor potentiële "
+"aanvallers betekent dit is het makkelijker om scripts te schrijven die "
+"gericht zijn voor aanvallen op  WordPress databases, als belangrijke "
+"tabelnamen voor 95% van  bekend zijn. Het veranderen van de \"wp\" prefix "
+"maakt het moeilijker voor de tools die proberen te profiteren van de "
+"kwetsbaarheden op andere plaatsen om invloed verkrijgen op de database van "
+"uw website."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:110
+msgid ""
+"Before using this tool, we strongly recommend running a backup of your "
+"database."
+msgstr ""
+"Voor het gebruik van deze tool, raden wij het ​​uitvoeren van een back-up van "
+"uw database."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:111
+msgid ""
+"Note: The use of this tool requires quite a bit of system memory which may "
+"be more than some hosts can handle. If you back your database up you can't "
+"do any permanent damage but without a proper backup you risk breaking your "
+"site and having to perform a rather difficult fix."
+msgstr ""
+"Opmerking: Het gebruik van dit instrument vereist nogal wat systeemgeheugen "
+"die meer dan een aantal servers aankan. Als je database back-upt, kun je "
+"geen blijvende schade veroorzaken, maar zonder een goede back-up loopt u het "
+"risico het crashen van uw site en het uitvoeren van een vrij moeilijke "
+"reparatie."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:125
+msgid "Your database is using the default table prefix"
+msgstr "Uw database gebruikt de standaard tabel prefix"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:126
+msgid "You should change this."
+msgstr "U moet dit veranderen."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:134
+msgid "Your current database table prefix is"
+msgstr "Uw huidige database tabel prefix is"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:150
+msgid "Change Table Prefix"
+msgstr "Verander Tabel Prefix"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:157
+msgid "Check this box to generate a new database table prefix."
+msgstr "Klik dit aan om een nieuwe database tabel prefix te genereren."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:240
+msgid "Error: Could not rename table"
+msgstr "Fout: Kan tabel niet hernoemen"
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:240
+msgid "You may have to rename the table manually."
+msgstr "Het kan zijn om de tabel handmatig te hernoemen."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:270
+msgid "Could not update prefix references in options table."
+msgstr "Kon niet prefix verwijzingen bijwerken in opties tabel."
+
+#: modules/free/database-prefix/class-itsec-database-prefix-admin.php:290
+msgid "Could not update prefix references in usermeta table."
+msgstr "Kon niet prefix verwijzingen bijwerken in usermeta tabel."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:46
+#: modules/free/file-change/class-itsec-file-change-admin.php:511
+#: modules/free/file-change/class-itsec-file-change-admin.php:526
+msgid "File Change Detection"
+msgstr "Bestand Mutatie Signalering"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:95
+msgid ""
+"Warning: Your server has less than 128MB of RAM dedicated to PHP. If you "
+"have many files in your installation or a lot of active plugins activating "
+"this feature may result in your site becoming disabled with a memory error. "
+"See the plugin homepage for more information."
+msgstr ""
+"Waarschuwing: Uw server heeft minder dan 128 MB RAM gewijd aan PHP. Als u "
+"veel bestanden hebt in uw installatie of een heleboel actieve plug-ins, "
+"activeren van deze functie kan leiden dat uw site steeds uitgeschakeld wordt "
+"met een geheugenfout. Zie de plugin homepagina voor meer informatie."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:97
+#: modules/free/file-change/class-itsec-file-change-admin.php:323
+msgid "Scan Next File Chunk"
+msgstr "Scan Volgende Bestand Kluif"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:97
+#: modules/free/file-change/class-itsec-file-change-admin.php:323
+msgid "Scan Files Now"
+msgstr "Scan Bestand Nu"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:98
+msgid "Scanning... (this could take a while on a large site)"
+msgstr "Scannen ... (dit kan een tijdje duren op een grote site)"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:99
+msgid "No changes were detected."
+msgstr "Geen veranderingen gedetecteerd."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:100
+msgid "Changes were detected. Please check the log page for details."
+msgstr "Veranderingen werden ontdekt. Controleer het logboek voor details."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:101
+#: modules/free/malware/class-itsec-malware-admin.php:83
+msgid "An error occured. Please try again later"
+msgstr "Er is een fout opgetreden. Probeer het later opnieuw"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:139
+msgid "Your site will detect changes to your files."
+msgstr "Uw site zal wijzigingen in uw bestanden detecteren."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:147
+msgid ""
+"Your website is not looking for changed files. Consider turning on file "
+"change detections."
+msgstr ""
+"Uw website is niet op zoek naar gewijzigde bestanden. Overweeg het "
+"inschakelen van het Bestand Mutatiesignalering"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:185
+msgid ""
+"has noticed a change to some files in your WordPress site. Please review the "
+"logs to make sure your system has not been compromised."
+msgstr ""
+"merkt een verandering in een aantal bestanden in uw WordPress site. Lees de "
+"logboeken om te controleren of uw systeem niet is aangetast."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:186
+msgid "View Logs"
+msgstr "Bekijk Logboeken"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:187
+msgid "Dismiss Warning"
+msgstr "Afwijzen Waarschuwing"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:256
+msgid "Email file change notifications"
+msgstr "Email Bestand Mutatie notificaties"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:257
+msgid ""
+"Notifications will be sent to all emails set to receive notifications on the "
+"global settings page."
+msgstr ""
+"Notificaties zullen worden verzonden naar email accounts, die ingesteld "
+"staan voor notificaties te ontvangen, op de pagina met de algemene "
+"instellingen."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:279
+msgid "Enable File Change detection"
+msgstr "Inschakelen Bestand Mutatiesignalering"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:301
+msgid "Split file checking into chunks."
+msgstr "Gespleten bestand controleren op hobbels."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:302
+msgid ""
+"Splits file checking into 7 chunks (plugins, themes, wp-admin, wp-includes, "
+"uploads, the rest of wp-content and everything that is left over) and "
+"divides the checks evenly over the course of a day. This feature may result "
+"in more notifications but will allow for the scanning of bigger sites to "
+"continue even on a lower-end web host."
+msgstr ""
+"Splits bestand controleert het in 7 stukken (plug-ins, thema's, wp-admin, wp-"
+"includes, uploads, de rest van de wp-content en alles wat overblijft) en "
+"verdeelt de controles gelijkmatig over de loop van een dag. Deze functie kan "
+"leiden tot meer meldingen, maar zorgt ervoor dat het scannen van grote sites "
+"te blijven doen, zelfs op een low-end providers."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:322
+msgid ""
+"Press the button below to scan your site's files for changes. Note that if "
+"changes are found this will take you to the logs page for details."
+msgstr ""
+"Druk op de onderstaande knop om de bestanden van uw site te scannen op "
+"veranderingen. Let op, dat als er wijzigingen worden gevonden, deze u naar "
+"de pagina logboeken leidt, voor meer informatie."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:363
+msgid ""
+"Exclude files or folders by clicking the red minus next to the file or "
+"folder name."
+msgstr ""
+"Bestanden of mappen uit te sluiten door te klikken op de rode min naast het "
+"bestand of de mapnaam."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:403
+msgid "Today"
+msgstr "Vandaag"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:405
+msgid "Tomorrow"
+msgstr "Morgen"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:410
+msgid "Next automatic scan at: "
+msgstr "Volgende automatische scan om:"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:411
+msgid ""
+"Automatic file change scanning is triggered by a user visiting your page and "
+"may not happen exactly at the time listed."
+msgstr ""
+"Automatisch scannen bestandsverandering wordt veroorzaakt door een bezoeker "
+"van uw pagina en mag niet gebeuren precies op het vermelde tijdstip."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:439
+msgid "Exclude Selected"
+msgstr "Uitsluiting Geselecteerd"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:440
+msgid "Include Selected"
+msgstr "Ingesloten Geselecteerd"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:442
+msgid "Include/Exclude Files"
+msgstr "Insluiting/Uitsluiting Bestanden"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:443
+msgid ""
+"Select what we should exclude files and folders selected or whether the scan "
+"should only include files and folders selected."
+msgstr ""
+"Kies wat wij met bestanden en mappen die geselecteerd zijn, moeten worden "
+"uitgesloten of dat de scan alleen bestanden en mappen die geselecteerd zijn "
+"moet insluiten."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:463
+#: modules/free/file-change/class-itsec-file-change-admin.php:574
+msgid "Display file change admin warning"
+msgstr "Vertoon bestandsverandering administrator waarschuwing"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:464
+msgid ""
+"Disabling this feature will prevent the file change warning from displaying "
+"to the site administrator in the WordPress Dashboard. Note that disabling "
+"both the error message and the email notification will result in no "
+"notifications of file changes. The only way you will be able to tell is by "
+"manually checking the log files."
+msgstr ""
+"Het uitschakelen van deze functie, dat het bestandsverandering waarschuwing "
+"die wordt weergegeven aan de beheerder van deze site in het WordPress "
+"Dashboard voorkomt . Let op, dat uitschakeling zowel de foutmelding en de e-"
+"mail notificatie,  resulteert, in geen meldingen van het "
+"bestandsverandering. De enige manier waarop je in staat bent om te "
+"vertellen, zal zijn is door het handmatig controleren van de logbestanden."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:493
+msgid ""
+"File types listed here will not be checked for changes. While it is possible "
+"to change files such as images it is quite rare and nearly all known "
+"WordPress attacks exploit php, js and other text files."
+msgstr ""
+"Bestandstypen die hier vermeld worden, worden niet gecontroleerd op "
+"veranderingen. Hoewel het mogelijk is om bestanden te wijzigen zoals "
+"afbeeldingen is vrij zeldzaam en bijna alle bekende WordPress aanvallen "
+"benutten php, js of andere tekstbestanden."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:518
+msgid "File Change Detection Settings"
+msgstr "Bestand Mutatiesignalering Instellingen"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:534
+msgid "Split File Scanning"
+msgstr "Gespleten Bestand Scan"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:542
+msgid "Include/Exclude Files and Folders"
+msgstr "Insluiting/Uitsluiting Bestanden en Folders"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:550
+msgid "Files and Folders List"
+msgstr "Bestanden en Folders Lijst"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:558
+msgid "Ignore File Types"
+msgstr "Negeer Bestand Types"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:566
+msgid "Email File Change Notifications"
+msgstr "Email Bestand Mutatie Notificaties"
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:596
+msgid ""
+"Even the best security solutions can fail. How do you know if someone gets "
+"into your site? You will know because they will change something. File "
+"Change detection will tell you what files have changed in your WordPress "
+"installation alerting you to changes not made by yourself. Unlike other "
+"solutions this plugin will look only at your installation and compare files "
+"to the last check instead of comparing them with a remote installation "
+"thereby taking into account whether or not you modify the files yourself."
+msgstr ""
+"Zelfs de beste beveiligingsoplossingen kan falen. Hoe weet u of iemand "
+"toegang tot uw site krijgt? Je zult weten, omdat ze er iets zal veranderen. "
+"Bestand Mutatiesignalering zal u vertellen welke bestanden zijn veranderd in "
+"uw WordPress-installatie, die u attenderen op wijzigingen die niet door "
+"jezelf zijn gemaakt. In tegenstelling tot andere oplossingen, zal deze "
+"plugin alleen kijken naar uw installatie en de bestanden te vergelijken met "
+"de laatste controle in plaats van ze te vergelijken met een installatie op "
+"afstand waarbij, rekening houdend met de vraag of je de documenten niet zelf "
+"wijzigen."
+
+#: modules/free/file-change/class-itsec-file-change-admin.php:710
+msgid "File Change History"
+msgstr "Bestand Verandeing Historie"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:90
+msgid "MB"
+msgstr "MB"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:110
+#: modules/free/file-change/class-itsec-file-change-log.php:178
+#: modules/free/file-change/class-itsec-file-change.php:230
+msgid "Files Added"
+msgstr "Bestand Toegevoegd"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:117
+#: modules/free/file-change/class-itsec-file-change-log.php:135
+#: modules/free/file-change/class-itsec-file-change-log.php:153
+#: modules/free/file-change/class-itsec-file-change.php:233
+#: modules/free/file-change/class-itsec-file-change.php:263
+#: modules/free/file-change/class-itsec-file-change.php:293
+msgid "File"
+msgstr "Bestand"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:117
+#: modules/free/file-change/class-itsec-file-change-log.php:135
+#: modules/free/file-change/class-itsec-file-change-log.php:153
+msgid "Date"
+msgstr "Datum"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:122
+msgid "There are no added files to report"
+msgstr "Er zijn toegevoegde bestanden om rapporteren"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:128
+msgid "Files Removed"
+msgstr "Bestanden Verwijderd"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:140
+msgid "There are no deleted files to report"
+msgstr "Er zijn geen verwijderde bestanden te rapporteren"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:146
+#: modules/free/file-change/class-itsec-file-change-log.php:180
+msgid "Files Changed"
+msgstr "Bestanden Veranderd"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:158
+msgid "There are no changed files to report"
+msgstr "Er zijn geen veranderde bestanden te rapporteren"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:177
+msgid "Check Time"
+msgstr "Controleer Tijd"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:179
+#: modules/free/file-change/class-itsec-file-change.php:260
+msgid "Files Deleted"
+msgstr "Bestanden Verwijderd"
+
+#: modules/free/file-change/class-itsec-file-change-log.php:181
+msgid "Memory Used"
+msgstr "Geheugen Gebruikt"
+
+#: modules/free/file-change/class-itsec-file-change.php:224
+msgid "Scan Time:"
+msgstr "Scan Tijd"
+
+#: modules/free/file-change/class-itsec-file-change.php:225
+msgid "Files Added:"
+msgstr "Bestanden Toegevoegd:"
+
+#: modules/free/file-change/class-itsec-file-change.php:226
+msgid "Files Deleted:"
+msgstr "Bestanden Verwijderd:"
+
+#: modules/free/file-change/class-itsec-file-change.php:227
+msgid "Files Modified:"
+msgstr "Bestanden Bijgewerkt:"
+
+#: modules/free/file-change/class-itsec-file-change.php:228
+msgid "Memory Used:"
+msgstr "Geheugen Gebruikt:"
+
+#: modules/free/file-change/class-itsec-file-change.php:234
+#: modules/free/file-change/class-itsec-file-change.php:264
+#: modules/free/file-change/class-itsec-file-change.php:294
+msgid "Modified"
+msgstr "Bijgewerkt"
+
+#: modules/free/file-change/class-itsec-file-change.php:235
+#: modules/free/file-change/class-itsec-file-change.php:265
+#: modules/free/file-change/class-itsec-file-change.php:295
+msgid "File Hash"
+msgstr "Bestand Hash"
+
+#: modules/free/file-change/class-itsec-file-change.php:253
+msgid "No files were added."
+msgstr "Geen bestanden zijn toegevoegd."
+
+#: modules/free/file-change/class-itsec-file-change.php:283
+msgid "No files were removed."
+msgstr "Geen bestanden zijn verwijderd."
+
+#: modules/free/file-change/class-itsec-file-change.php:290
+msgid "Files Modified"
+msgstr "Bestanden Bijgewerkt"
+
+#: modules/free/file-change/class-itsec-file-change.php:313
+msgid "No files were changed."
+msgstr "Geen bestanden zijn veranderd."
+
+#: modules/free/file-change/class-itsec-file-change.php:402
+msgid "File Changes Detected"
+msgstr "Bestand Mutatie Gedetecteerd"
+
+#: modules/free/file-change/class-itsec-file-change.php:512
+msgid "WordPress File Change Warning"
+msgstr "WordPress Bestand Mutatie Waarschuwing"
+
+#: modules/free/file-change/class-itsec-file-change.php:514
+msgid "A file (or files) on your site at "
+msgstr "Een bestand (of bestanden) op je site op"
+
+#: modules/free/file-change/class-itsec-file-change.php:514
+msgid ""
+" have been changed. Please review the report below to verify changes are not "
+"the result of a compromise."
+msgstr ""
+"zijn gewijzigd. Lees hieronder het verslag om veranderingen te verifiëren "
+"die niet het resultaat zijn van een compromis."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:50
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:274
+msgid "404 Detection"
+msgstr "404 detectie"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:105
+msgid "Your site is protecting against bots looking for known vulnerabilities."
+msgstr ""
+"Uw site beschermt zich tegen bots die zoeken naar bekende kwetsbaarheden."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:113
+msgid ""
+"Your website is not protected against bots looking for known "
+"vulnerabilities. Consider turning on 404 protection."
+msgstr ""
+"Uw site beschermt zich niet tegen bots die zoeken naar bekende "
+"kwetsbaarheden. Overweeg 404 protectie in te schakelen."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:142
+msgid ""
+"The number of minutes in which 404 errors should be remembered and counted "
+"towards lockouts."
+msgstr ""
+"Het aantal minuten waarin 404 fouten mag niet worden vergeten en meegeteld "
+"voor buitensluiting."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:163
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:224
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:336
+msgid "You must turn on"
+msgstr "Je moet het aanzetten"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:163
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:224
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:336
+msgid "WordPress permalinks"
+msgstr "WordPress permalinks"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:164
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:224
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:336
+#: modules/free/malware/class-itsec-malware-admin.php:109
+msgid "to use this feature."
+msgstr "om deze functie te gebruiken."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:177
+msgid "Enable 404 detection"
+msgstr "Inschakelen 404 detectie"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:201
+msgid "Errors"
+msgstr "Fouten"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:202
+msgid ""
+"The numbers of errors (within the check period time frame) that will trigger "
+"a lockout. Set to zero (0) to record 404 errors without locking out users. "
+"This can be useful for troubleshooting content or other errors. The default "
+"is 20."
+msgstr ""
+"Het aantal fouten (binnen de controle periode tijdsbestek) dat een "
+"buitensluiting zal leiden. Ingesteld op nul (0) zal  404 fouten opnemen "
+"zonder het buitensluiten van gebruikers. Dit kan nuttig zijn voor "
+"probleemoplossing of andere fouten. De standaardwaarde is 20."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:243
+msgid ""
+"Use the white list above to prevent recording common 404 errors. If you know "
+"a common file on your site is missing and you do not want it to count "
+"towards a lockout record it here. You must list the full path beginning with "
+"the \"/\""
+msgstr ""
+"Gebruik de bovenstaande witte lijst om het opnemen van veelvoorkomende 404 "
+"fouten te voorkomen. Als u weet dat een veelvoorkomend bestand ontbreekt op "
+"uw site en u niet wilt dat het meetellen voor een buitensluiting, plaats het "
+"hier. U moet het volledige pad invullen, beginnend met de  \"/ \""
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:259
+msgid "Enable 404 Detection"
+msgstr "Inschakelen 404 Detectie"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:266
+msgid "404 Detection Settings"
+msgstr "404 Detectie Instellingen"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:282
+msgid "Minutes to Remember 404 Error (Check Period)"
+msgstr "Minuten om te onthouden op 404 Fouten (controle periode)"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:290
+msgid "Error Threshold"
+msgstr "Fout Drempel"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:298
+msgid "404 File/Folder White List"
+msgstr "404 Bestand/Map Witte Lijst"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:306
+msgid "Ignored File Types"
+msgstr "Negeer Bestand Types"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:330
+msgid ""
+"404 detection looks at a user who is hitting a large number of non-existent "
+"pages and getting a large number of 404 errors. 404 detection assumes that a "
+"user who hits a lot of 404 errors in a short period of time is scanning for "
+"something (presumably a vulnerability) and locks them out accordingly. This "
+"also gives the added benefit of helping you find hidden problems causing 404 "
+"errors on unseen parts of your site. All errors will be logged in the \\"
+"\"View Logs\\\" page. You can set thresholds for this feature below."
+msgstr ""
+"404 detectie kijkt naar een gebruiker, die een groot aantal niet-bestaande "
+"pagina's laad en daardoor veroorzaakt een groot aantal 404-fouten. 404 "
+"detectie gaat ervan uit dat een gebruiker die veel 404 fouten in een korte "
+"tijd genereerd, scant naar iets (vermoedelijk een kwetsbaarheid) en sluit "
+"hen dienovereenkomstig buiten. Dit geeft ook het extra voordeel van het "
+"helpen van je verborgen problemen die 404 fouten veroorzaken op onzichtbare "
+"delen van uw site zijn te vinden. Alle fouten zullen worden geregistreerd in "
+"het \\\"Bekijk Logboeken\\\" pagina. U kunt de drempels voor deze functie "
+"hieronder invoeren."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:364
+msgid "404 Errors Found"
+msgstr "404 Fouten Gevonden"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-admin.php:516
+msgid ""
+"File types listed here will be recorded as 404 errors but will not lead to "
+"lockouts."
+msgstr ""
+"Bestandstypen hier vermeld zijn, zal worden opgenomen als 404 fouten, maar "
+"zal niet leiden tot buitensluiting."
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:90
+msgid "Query"
+msgstr "Query"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:107
+msgid "Location"
+msgstr "/Locatie"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:108
+msgid "Count"
+msgstr "Telling"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:109
+msgid "First Recorded"
+msgstr "Eerste Opname"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four-log.php:110
+msgid "Last Recorded"
+msgstr "Laatste Opname"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four.php:80
+msgid "too many attempts to access a file that does not exist"
+msgstr ""
+"te veel pogingen om toegang te krijgen tot een bestand dat niet bestaat"
+
+#: modules/free/four-oh-four/class-itsec-four-oh-four.php:104
+msgid "404 Error"
+msgstr "404 Fout"
+
+#: modules/free/help/class-itsec-help-admin.php:35
+msgid ""
+"Website security is a complicated subject, but we have experts that can help."
+msgstr ""
+"Website beveiliging is een gecompliceerde ontwerp, maar we hebben experts "
+"die kunnen helpen."
+
+#: modules/free/help/class-itsec-help-admin.php:37
+msgid "Community Support from WordPress.org"
+msgstr "Community Ondersteuning van WordPress.org"
+
+#: modules/free/help/class-itsec-help-admin.php:42
+msgid "Support & Pro Features with iThemes Security Pro"
+msgstr "Ondersteuning & Pro Functies met iThemes Beveiliging Pro"
+
+#: modules/free/help/class-itsec-help-admin.php:47
+msgid "Have a Pro Secure Your Site"
+msgstr "Heb een Pro Beveilig Jouw Site"
+
+#: modules/free/help/class-itsec-help-admin.php:48
+msgid ""
+"Be sure your site has been properly secured by having one of our security "
+"experts tailor your security settings to the specific needs of your site."
+msgstr ""
+"Zorg ervoor dat uw site is goed beveiligd door het op maat maken van iThemes "
+"beveiligingsinstellingen aan de specifieke behoeften van deze site door onze "
+"experts."
+
+#: modules/free/help/class-itsec-help-admin.php:52
+msgid "Hack Repair"
+msgstr "Hack Reparatie"
+
+#: modules/free/help/class-itsec-help-admin.php:53
+msgid ""
+"Has your site been hacked? Contact one of our recommended hack repair "
+"partners to get things back in order."
+msgstr ""
+"Is uw website is gehackt? Neem contact op met een van onze aanbevolen hack-"
+"reparatie partners om de dingen weer op orde te krijgen."
+
+#: modules/free/help/class-itsec-help-admin.php:54
+msgid "Get hack repair"
+msgstr "Verkrijg hack reparatie"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:43
+msgid "Hide Login Area"
+msgstr "Verberg Inloggen Gebied"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:84
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:99
+msgid ""
+"Warning: Your admin URL has changed. Use the following URL to login to your "
+"site"
+msgstr ""
+"Waarschuwing: Uw administrator URL is gewijzigd. Gebruik de volgende URL om "
+"in te loggen op uw site"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:88
+msgid ""
+"Please note this may be different than what you sent as the URL was "
+"sanitized to meet various requirements. A reminder has also been sent to the "
+"notification email(s) set in this plugins global settings."
+msgstr ""
+"Let op: dit kan anders zijn dan de URL wat je verzonden hebt, het is "
+"opgeschoond om aan de verschillende eisen te voldoen. Een herinnering is ook "
+"gestuurd naar de notificatie e-mail(s) zoals die staan in deze plugin "
+"globale instellingen."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:101
+msgid ""
+"Please note this may be different than what you sent as the URL was "
+"sanitized to meet various requirements."
+msgstr ""
+"Let op: dit kan anders zijn dan de URL wat je verzonden hebt, het is "
+"opgeschoond om aan de verschillende eisen te voldoen."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:144
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:148
+msgid "Rules to hide the dashboard"
+msgstr "Regels om het dashboard te verbergen"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:192
+msgid "Your WordPress Dashboard is hidden."
+msgstr "Je WordPress Dashboard is verborgen."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:199
+msgid ""
+"Your WordPress Dashboard is using the default addresses. This can make a "
+"brute force attack much easier."
+msgstr ""
+"Je WordPress Dashboard gebruikt het standaard adres. Dit kan een brute "
+"forceer aanval veel gemakkelijker maken."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:235
+msgid "Enable the hide backend feature."
+msgstr "Schakel in de verberg backend functie."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:259
+msgid "Login URL:"
+msgstr "Inlog URL:"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:260
+msgid ""
+"The login url slug cannot be \"login,\" \"admin,\" \"dashboard,\" or \"wp-"
+"login.php\" as these are use by default in WordPress."
+msgstr ""
+"De inlog URL label kan niet zijn \"login,\" \"admin,\" \"dashboard,\" of "
+"\"wp-login.php\" omdat deze standaard door WordPress wordt gebruikt."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:261
+msgid ""
+"Note: The output is limited to alphanumeric characters, underscore (_) and "
+"dash (-). Special characters such as \".\" and \"/\" are not allowed and "
+"will be converted in the same manner as a post title. Please review your "
+"selection before logging out."
+msgstr ""
+"Opmerking: De output is beperkt tot alfanumerieke tekens, underscore (_) en "
+"streep(-). Speciale karakters zoals \".\" en \"/\" zijn niet toegestaan ​​en "
+"worden omgezet op dezelfde wijze als post titel. Controleer uw selectie "
+"eerst, voordat u uitlogt."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:287
+msgid "404 Slug:"
+msgstr "404 Label:"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:288
+msgid ""
+"The slug to redirect folks to when theme compatibility mode is enabled (just "
+"make sure it does not exist in your site)."
+msgstr ""
+"De label om mensen te door te linken naar de thema compatibiliteitsmodus, is "
+"ingeschakeld (maar zorgt ervoor dat het niet bestaat in uw site)."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:314
+msgid "Custom Action:"
+msgstr "Aangepaste Actie:"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:315
+msgid ""
+"WordPress uses the \"action\" variable to handle many login and logout "
+"functions. By default this plugin can handle the normal ones but some "
+"plugins and themes may utilize a custom action (such as logging out of a "
+"private post). If you need a custom action please enter it here."
+msgstr ""
+"WordPress maakt gebruik van de \"actie\" variabele om de vele login en "
+"loguit functies uit te voeren. Standaard kan deze plugin kan omgaan met de "
+"normale acties, maar sommige plug-ins en thema's maken gebruik van een "
+"aangepaste actie (als het afmelden van een privé-bericht). Als u een "
+"aangepaste actie nodig hebt kunt u deze hier invoeren."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:347
+msgid ""
+"Enable theme compatibility. If  you see errors in your theme when using hide "
+"backend, in particular when going to wp-admin while not logged in, turn this "
+"on to fix them."
+msgstr ""
+"Schakel thema compatibiliteit in. Als u fouten ziet in uw thema bij het "
+"gebruik van verberg backend, in het bijzonder wanneer je gaat naar wp-admin, "
+"terwijl niet ingelogd, zet deze om, ze op te lossen."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:371
+msgid "Registration URL:"
+msgstr "Registratie URL:"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:389
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:396
+msgid "Hide Login and Admin"
+msgstr "Verberg Inlog en Administrator"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:404
+msgid "Hide Backend"
+msgstr "Verberg Backend"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:412
+msgid "Login Slug"
+msgstr "Inlog Label"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:422
+msgid "Register Slug"
+msgstr "Register Label"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:432
+msgid "Enable Theme Compatibility"
+msgstr "Schakel Thema Compatibiliteit"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:440
+msgid "Theme Compatibility Slug"
+msgstr "Thema Compatibiliteit Label"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:448
+msgid "Custom Login Action"
+msgstr "Aangepaste Inlog Actie"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:472
+msgid ""
+"Hides the login page (wp-login.php, wp-admin, admin and login) making it "
+"harder to find by automated attacks and making it easier for users "
+"unfamiliar with the WordPress platform."
+msgstr ""
+"Verbergt de inlogpagina (wp-login.php, wp-admin, admin en login) waardoor "
+"het moeilijker is te vinden door geautomatiseerde aanvallen en het "
+"makkelijker maakt voor gebruikers die niet bekend zijn met de WordPress-"
+"platform."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:518
+msgid "Review Hide Backend Settings"
+msgstr "Herzie Verberg Backend Instellingen"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:519
+msgid ""
+"The hide backend system has been rewritten. You must re-activate the feature "
+"to continue using the feature."
+msgstr ""
+"De verberg backend systeem is herschreven. U moet de functie opnieuw "
+"activeren om gebruik te blijven maken van de functie."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:520
+msgid "Review Settings"
+msgstr "Herzie Instellingen"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:591
+msgid ""
+"Invalid hide login slug used. The login url slug cannot be \\\"login,\\\" \\"
+"\"admin,\\\" \\\"dashboard,\\\" or \\\"wp-login.php\\\" or \\\"\\\" (blank) "
+"as these are use by default in WordPress."
+msgstr ""
+"Ongeldige verberg inlog label gebruikt. De inlog URL label kan niet zijn \\"
+"\"login,\\\" \\\"admin,\\\" \\\"dashboard,\\\" or \\\"wp-login.php\\\" or \\"
+"\"\\\" (leeg) deze worden standaard gebruikt door WordPress."
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:704
+msgid ""
+"This friendly email is just a reminder that you have changed the dashboard "
+"login address on"
+msgstr ""
+"Dit vriendelijke e-mail is slechts een herinnering dat u het dashboard inlog "
+"adres heeft gewijzigd naar"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:707
+msgid "You must now use"
+msgstr "Je moet nu gebruiken"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:710
+msgid "to login to your WordPress website"
+msgstr "om in te loggen op uw WordPress website"
+
+#: modules/free/hide-backend/class-itsec-hide-backend-admin.php:715
+msgid "WordPress Login Address Changed"
+msgstr "WordPress Inlog Adres Veranderd"
+
+#: modules/free/malware/class-itsec-malware-admin.php:40
+msgid "Malware Scanning"
+msgstr "Malware Scanning"
+
+#: modules/free/malware/class-itsec-malware-admin.php:79
+#: modules/free/malware/class-itsec-malware-admin.php:280
+msgid "Scan Homepage for Malware"
+msgstr "Scan Homepagina voor Malware"
+
+#: modules/free/malware/class-itsec-malware-admin.php:80
+msgid "Scanning... (this could take a little while)"
+msgstr "Scannen ... (dit kan een tijdje duren)"
+
+#: modules/free/malware/class-itsec-malware-admin.php:81
+msgid "No malware was detected."
+msgstr "Geen malware gedetecteerd."
+
+#: modules/free/malware/class-itsec-malware-admin.php:82
+msgid "Malware has been detected. Please check the log page for details."
+msgstr "Malware gedetecteerd. Controleer het logboek voor details."
+
+#: modules/free/malware/class-itsec-malware-admin.php:109
+msgid "You will need to get a free api key from "
+msgstr "U moet een gratis api sleutel krijgen van"
+
+#: modules/free/malware/class-itsec-malware-admin.php:109
+msgid "For more information on setting up your account, visit this"
+msgstr "Voor meer informatie over het instellen van uw account, ga naar"
+
+#: modules/free/malware/class-itsec-malware-admin.php:127
+msgid ""
+"Malware scanning is enabled and running at scheduled intervals on your "
+"computer"
+msgstr ""
+"Malware scannen is ingeschakeld en actief, op geplande tijdstippen op uw "
+"computer"
+
+#: modules/free/malware/class-itsec-malware-admin.php:132
+msgid ""
+"Malware scanning is enabled but not scheduled. Consider enabling scheduled "
+"scans."
+msgstr ""
+"Malware scannen is ingeschakeld, maar niet ingepland. Overweeg geplande "
+"scans."
+
+#: modules/free/malware/class-itsec-malware-admin.php:137
+msgid "Malware scanning is not enabled."
+msgstr "Malware scanning staat uit."
+
+#: modules/free/malware/class-itsec-malware-admin.php:163
+msgid "Enable malware scanning."
+msgstr "Schakel malware scanning in."
+
+#: modules/free/malware/class-itsec-malware-admin.php:179
+#: modules/free/malware/class-itsec-malware-admin.php:194
+msgid "Enable Malware Scanning"
+msgstr "Schakel malware scanning in"
+
+#: modules/free/malware/class-itsec-malware-admin.php:186
+msgid "Malware Scanning Settings"
+msgstr "Malware Scanning Instellingen"
+
+#: modules/free/malware/class-itsec-malware-admin.php:202
+msgid "API Key"
+msgstr "API Sleutel"
+
+#: modules/free/malware/class-itsec-malware-admin.php:233
+#: modules/free/malware/class-itsec-malware.php:36
+msgid "Malware Scan"
+msgstr "Malware Scan"
+
+#: modules/free/malware/class-itsec-malware-admin.php:279
+msgid ""
+"Press the button below to scan your site's homepage for malware. Note that "
+"if malware is found this will take you to the logs page for details."
+msgstr ""
+"Druk op de onderstaande knop om uw sites homepage op malware te scannen. "
+"Merk op dat als malware wordt gevonden, deze u naar de pagina logboeken "
+"stuurt voor meer informatie."
+
+#: modules/free/malware/class-itsec-malware-admin.php:282
+msgid "View logs of previous scans"
+msgstr "Bekijk logbestanden van vorige scans"
+
+#: modules/free/malware/class-itsec-malware-admin.php:328
+msgid "You must enter a valid API key to use the malware scanner."
+msgstr ""
+"U moet een geldige API-sleutel om gebruik te maken van de malware scanner."
+
+#: modules/free/malware/class-itsec-malware-log.php:43
+msgid "Resource Scanned"
+msgstr "Hulpbron Gescand"
+
+#: modules/free/malware/class-itsec-malware-log.php:49
+msgid "Total Scans"
+msgstr "Totale Scans"
+
+#: modules/free/malware/class-itsec-malware-log.php:53
+msgid "Problems Found"
+msgstr "Problemen Gevonden"
+
+#: modules/free/malware/class-itsec-malware-log.php:58
+msgid "Scan Details"
+msgstr "Scan Details"
+
+#: modules/free/malware/class-itsec-malware-log.php:95
+msgid "Clean"
+msgstr "Schoon"
+
+#: modules/free/malware/class-itsec-malware-log.php:97
+msgid "Issues Detected"
+msgstr "Problemen Gedetecteerd."
+
+#: modules/free/malware/class-itsec-malware-log.php:167
+msgid "Action"
+msgstr "Actie"
+
+#: modules/free/malware/class-itsec-malware-log.php:168
+msgid "Results"
+msgstr "Resultaten"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:108
+msgid "Secure Socket Layers (SSL)"
+msgstr "Secure Socket Layers (SSL)"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:142
+msgid ""
+"Are you sure you want to enable SSL? If your server does not support SSL you "
+"will be locked out of your WordPress Dashboard."
+msgstr ""
+"Bent u zeker dat u SSL in wilt schakelen? Als uw server geen SSL "
+"ondersteunt, wordt u buitengesloten van je WordPress Dashboard."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:161
+msgid "You are requiring a secure connection for logins and the admin area."
+msgstr ""
+"Je verreist een beveiligde verbinding voor inlogpagina en het administrator "
+"gedeelte."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:169
+msgid ""
+"You are requiring a secure connection for logins or the admin area but not "
+"both."
+msgstr ""
+"Je verreist een beveiligde verbinding voor inlogpagina of het administrator "
+"gedeelte, maar niet voor beide."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:177
+msgid ""
+"You are not requiring a secure connection for logins or for the admin area."
+msgstr ""
+"Je verreist geen beveiligde verbinding voor inlogpagina of het administrator "
+"gedeelte."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:203
+msgid "Configure SSL"
+msgstr "Configureer SSL"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:211
+#: modules/free/ssl/class-itsec-ssl-admin.php:265
+msgid "Front End SSL Mode"
+msgstr "Front End SSL Mode"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:220
+msgid "SSL for Login"
+msgstr "SSL voor Inloggen"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:229
+msgid "SSL for Dashboard"
+msgstr "SSL voor Dashboard"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:262
+msgid "Per Content"
+msgstr "Binnen Inhoud"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:263
+msgid "Whole Site"
+msgstr "Gehele Site"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:266
+msgid ""
+"Enables secure SSL connection for the front-end (public parts of your site). "
+"Turning this off will disable front-end SSL control, turning this on \"Per "
+"Content\" will place a checkbox on the edit page for all posts and pages "
+"(near the publish settings) allowing you to turn on SSL for selected pages "
+"or posts, and selecting \"Whole Site\" will force the whole site to use SSL "
+"(not recommended unless you have a really good reason to use it"
+msgstr ""
+"Schakel een veilige SSL-verbinding in voor de front-end (publieke delen van "
+"uw site). Zet je dit uit zal de front-end SSL-controle uitschakelen, zet je "
+"dit aan \"Per Content\" zal er een checkbox geplaatst worden op de te "
+"bewerken pagina voor alle berichten en pagina's (in de buurt van de "
+"publicatie-instellingen), waarmee u het kunt inschakelen van SSL voor "
+"geselecteerde pagina's of berichten , en het selecteren van \"hele Site\" "
+"zal de hele site te dwingen om SSL te gebruiken (niet aan te raden tenzij je "
+"een echt goede reden om het te gebruiken)"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:286
+msgid "Force SSL for Login"
+msgstr "Forceer SSL voor Inloggen"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:287
+#: modules/free/ssl/class-itsec-ssl-admin.php:310
+msgid "Forces all logins to be served only over a secure SSL connection."
+msgstr "Dwingt alle inloggen over een beveiligde SSL-verbinding."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:309
+msgid "Force SSL for Dashboard"
+msgstr "Forceer SSL voor Dashboard"
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:323
+msgid ""
+"Secure Socket Layers (SSL) is a technology that is used to encrypt the data "
+"sent between your server or host and a visitor to your web page. When SSL is "
+"activated, it makes it almost impossible for an attacker to intercept data "
+"in transit, therefore making the transmission of form, password or other "
+"encrypted data much safer."
+msgstr ""
+"Secure Socket Layers (SSL) is een technologie die wordt gebruikt om de "
+"gegevens die tussen uw server of provider en een bezoeker van uw webpagina "
+"te versleutelen. Wanneer SSL is ingeschakeld, maakt het bijna onmogelijk "
+"voor een aanvaller gegevens in transit te onderscheppen, dus waardoor de "
+"transmissie van formulier, wachtwoord of andere versleutelde data veel "
+"veiliger is."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:324
+msgid ""
+"This plugin gives you the option of turning on SSL (if your server or host "
+"supports it) for all or part of your site. The options below allow you to "
+"automatically use SSL for major parts of your site such as the login page, "
+"the admin dashboard or the site as a whole. You can also turn on SSL for any "
+"post or page by editing the content and selecting \"Enable SSL\" in the "
+"publishing options of the content in question."
+msgstr ""
+"Deze plugin geeft u de mogelijkheid voor het inschakelen van SSL (als je "
+"server of provider dit ondersteunt) voor alles of een deel van uw site. Met "
+"onderstaande opties kunt u automatisch gebruik van SSL voor grote delen van "
+"de site, zoals de login pagina, de administrator dashboard of de site als "
+"geheel. U kunt SSL ook aanzetten voor elke post of pagina door het bewerken "
+"van de inhoud en selecteer \"Inschakelen SSL\" in de publiceer opties van de "
+"inhoud in kwestie."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:325
+msgid ""
+"Note: While this plugin does give you the option of encrypting everything, "
+"SSL may not be for you. SSL does add overhead to your site which will "
+"increase download times slightly. Therefore we recommend you enable SSL at a "
+"minimum on the login page, then on the whole admin section and finally on "
+"individual pages or posts with forms that require sensitive information."
+msgstr ""
+"Opmerking: Hoewel deze plugin je de mogelijkheid geeft om het versleutelen "
+"van alles, kan SSL er niet zijn voor u. SSL voegt overhead toe aan uw site, "
+"de downloadtijd zal iets toenemen. Daarom raden we u SSL op een minimum aan, "
+"op de inlogpagina, dan op de gehele administrator gedeelte en tenslotte op "
+"afzonderlijke pagina's of berichten met formulieren die gevoelige informatie "
+"bevatten."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:329
+msgid ""
+"Your server does not appear to support SSL. Your server MUST support SSL to "
+"use these features. Using these features without SSL support on your server "
+"or host will cause some or all of your site to become unavailable."
+msgstr ""
+"Uw server lijkt geen SSL te ondersteunen. Uw server moet SSL ondersteunen om "
+"deze functies te gebruiken. Met behulp van deze functies zonder SSL "
+"ondersteuning op uw server of provider, zal veroorzaken dat sommige delen of "
+"gehele site niet meer bereikbaar wordt."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:333
+msgid ""
+"Your server does appear to support SSL. Using these features without SSL "
+"support on your server or host will cause some or all of your site to become "
+"unavailable."
+msgstr ""
+"Uw server lijkt te SSL ondersteunen. Met behulp van deze functies zonder SSL "
+"ondersteuning op uw server of provider, zal veroorzaken dat sommige delen of "
+"gehele site niet meer bereikbaar wordt."
+
+#: modules/free/ssl/class-itsec-ssl-admin.php:337
+msgid ""
+"Note: When turning SSL on you will be logged out and you will have to log "
+"back in. This is to prevent possible cookie conflicts that could make it "
+"more difficult to get in otherwise."
+msgstr ""
+"Opmerking:. Wanneer u SSL aanzet, wordt je afgemeld en moet je opnieuw "
+"inloggen. Dit is om eventuele cookie-conflicten te voorkomen, die zouden het "
+"moeilijker maken om weer in te loggen op een andere manier."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:42
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:145
+msgid "Strong Passwords"
+msgstr "Sterke Wachtwoorden"
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:92
+msgid "You are enforcing strong passwords for all users."
+msgstr "U vraagt sterke wachtwoorden voor alle gebruikers."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:100
+msgid "You are enforcing strong passwords, but not for all users."
+msgstr ""
+"U vraagt sterke wachtwoorden voor alle gebruikers, maar niet voor alle "
+"gebruikers."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:108
+msgid "You are not enforcing strong passwords for any users."
+msgstr "U vraagt geen sterke wachtwoorden voor alle gebruikers."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:130
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:137
+msgid "Enforce Strong Passwords"
+msgstr "Forceer Sterke Wachtwoorden"
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:153
+msgid "Select Role for Strong Passwords"
+msgstr "Selecteer Rollen voor Sterke Wachtwoorden"
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:177
+msgid ""
+"Force users to use strong passwords as rated by the WordPress password meter."
+msgstr ""
+"Laat gebruikers sterke wachtwoorden gebruiken, zoals ingesteld door de "
+"WordPress wachtwoord meter."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:274
+msgid "Enable strong password enforcement."
+msgstr "Inschakelen sterke wachtwoorden handhaving."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:302
+msgid "Minimum role at which a user must choose a strong password."
+msgstr ""
+"Minimale rol waarbij een gebruiker moet gebruik maken van een sterke "
+"wachtwoord."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:304
+msgid "For more information on WordPress roles and capabilities please see"
+msgstr "Voor meer informatie over WordPress rollen en mogelijkheden zie"
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords-admin.php:305
+msgid ""
+"Warning: If your site invites public registrations setting the role too low "
+"may annoy your members."
+msgstr ""
+"Waarschuwing: Als uw site openbare inschrijvingen uitnodigt en de instelling "
+"van de rol te laag is, kunnen uw leden zich gaan ergeren."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords.php:95
+msgid ""
+"<strong>ERROR</strong>: You MUST Choose a password that rates at least "
+"<em>Strong</em> on the meter. Your setting have NOT been saved."
+msgstr ""
+"<strong> FOUT </ strong>: Je MOET Kiezen een wachtwoord dat tenminste <em> "
+"Sterk </ em> op de meter weergeeft. Uw instellingen zijn niet opgeslagen."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords.php:117
+msgid "Sorry, but you must enter a strong password."
+msgstr "Het spijt me, maar je moet een sterk wachtwoord in te voeren."
+
+#: modules/free/strong-passwords/class-itsec-strong-passwords.php:138
+msgid "Sorry, but you must enter a strong password"
+msgstr "Het spijt me, maar je moet een sterk wachtwoord in te voeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:44
+msgid "System Tweaks"
+msgstr "System Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:63
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:2078
+msgid "WordPress Tweaks"
+msgstr "WordPress Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:84
+msgid "Multi-site Tweaks"
+msgstr "Multi-site Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:122
+msgid "Disable Directory Browsing"
+msgstr "Uitschakelen Mapnaam Surfen"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:123
+msgid ""
+"Prevents users from seeing a list of files in a directory when no index file "
+"is present."
+msgstr ""
+"Voorkomt dat gebruikers het zien van een lijst met bestanden in een map als "
+"er geen index-bestand aanwezig is."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:145
+msgid "Filter Long URL Strings"
+msgstr "Filter Lange URL Strings"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:146
+msgid ""
+"Limits the number of characters that can be sent in the URL. Hackers often "
+"take advantage of long URLs to try to inject information into your database."
+msgstr ""
+"Beperkt het aantal tekens dat in de URL kan worden verzonden. Hackers "
+"profiteren vaak van lange URL's om te proberen om informatie te injecteren "
+"in uw database."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:168
+msgid "Filter Non-English Characters"
+msgstr "Filter Geen Engelse Karakters"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:169
+msgid ""
+"Filter out non-english characters from the query string. This should not be "
+"used on non-english sites and only works when \"Filter Suspicious Query "
+"String\" has been selected."
+msgstr ""
+"Filteren op niet-Engels karakters uit de query string. Dit moet niet worden "
+"gebruikt voor niet-Engels sites en werkt alleen als \"Filter Suspicious "
+"Query String\" geselecteerd is."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:191
+msgid "Protect System Files"
+msgstr "Beveilig Systeem Bestanden"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:192
+msgid ""
+"Prevent public access to readme.html, readme.txt, wp-config.php, install."
+"php, wp-includes, and .htaccess. These files can give away important "
+"information on your site and serve no purpose to the public once WordPress "
+"has been successfully installed."
+msgstr ""
+"Voorkom dat het publiek toegang krijgt tot readme.html, readme.txt, wp-"
+"config.php, install.php, wp-includes en htaccess. Deze bestanden kan "
+"belangrijke informatie weggeven over uw site en dienen geen enkel doel voor "
+"het publiek, wanneer WordPress succesvol is geïnstalleerd."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:214
+msgid "Filter Request Methods"
+msgstr "Filter Aanvraag Methodes"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:215
+msgid "Filter out hits with the trace, delete, or track request methods."
+msgstr "Filteren uit hits met sporen, verwijderen, of track verzoek methoden."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:237
+msgid "Filter Suspicious Query Strings in the URL"
+msgstr "Filter Verdachte Query Strings in de URL"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:238
+msgid ""
+"These are very often signs of someone trying to gain access to your site but "
+"some plugins and themes can also be blocked."
+msgstr ""
+"Dit zijn zeer vaak tekenen van iemand die probeert om de toegang tot uw site "
+"te verkrijgen, maar sommige plug-ins en thema's kan ook worden geblokkeerd."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:260
+msgid "Remove File Writing Permissions"
+msgstr "Verwijder Bestand Schrijf Permissies"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:261
+msgid ""
+"Prevents scripts and users from being able to write to the wp-config.php "
+"file and .htaccess file. Note that in the case of this and many plugins this "
+"can be overcome however it still does make the files more secure. Turning "
+"this on will set the UNIX file permissions to 0444 on these files and "
+"turning it off will set the permissions to 0664."
+msgstr ""
+"Voorkom scripts en gebruikers van de mogelijkheid om te schrijven naar de wp-"
+"config.php bestand en htaccess bestand. Merk op dat bij deze en vele plug-"
+"ins kan deze worden overwonnen maar nog steeds maakt de bestanden veiliger. "
+"Als je dit inschakelt wordt het UNIX file permissie ingesteld op 0444 op "
+"deze bestanden en deze uit te zetten zal de permissies ingesteld worden op "
+"0664."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:283
+msgid "Disables a user's author page if their post count is 0."
+msgstr ""
+"Schakelt uit de auteur pagina van een gebruiker, indien hun aantal berichten "
+"is 0."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:284
+msgid ""
+"This makes it harder for bots to determine usernames by disabling post "
+"archives for users that don't post to your site."
+msgstr ""
+"Dit maakt het moeilijker voor bots om gebruikersnamen te bepalen, door het "
+"uitschakelen van de berichten archieven van gebruikers die niets plaatsen op "
+"uw site."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:306
+msgid "Force users to choose a unique nickname"
+msgstr "Forceer gebruikers te kiezen voor een unieke gebruikersnaam"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:307
+msgid ""
+"This forces users to choose a unique nickname when updating their profile or "
+"creating a new account which prevents bots and attackers from easily "
+"harvesting user's login usernames from the code on author pages. Note this "
+"does not automatically update existing users as it will affect author feed "
+"urls if used."
+msgstr ""
+"Dit dwingt gebruikers een unieke gebruikersnaam te kiezen bij het updaten "
+"van hun profiel of bij een nieuwe account, wat bots en aanvallers belet om "
+"eenvoudig gebruikersnamen te oogsten van de code op auteur pagina's. Merk op "
+"dat dit niet automatisch bestaande gebruikers updaten want het zal invloed "
+"hebben op auteur feed URL's als het gebruikt wordt."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:329
+msgid "Disable login error messages"
+msgstr "Uitschakelen Inlog Fout Berichten"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:330
+msgid ""
+"Prevents error messages from being displayed to a user upon a failed login "
+"attempt."
+msgstr ""
+"Voorkom foutmeldingen die weergegeven wordt aan een gebruiker na een "
+"mislukte inlogpoging."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:352
+msgid "Reduce Comment Spam"
+msgstr "Reduceer Spam Reacties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:353
+msgid ""
+"This option will cut down on comment spam by denying comments from bots with "
+"no referrer or without a user-agent identified."
+msgstr ""
+"Deze optie is spam van reacties te verminderen, door het ontkennen van "
+"opmerkingen door bots zonder verwijzing of die zonder een gebruikersprofiel "
+"worden geïdentificeerd."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:375
+msgid "Hide Core Update Notifications"
+msgstr "Verberg Kern Update Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:376
+msgid ""
+"Hides core update notifications from users who cannot update core. Please "
+"note that this only makes a difference in multi-site installations."
+msgstr ""
+"Verbergt kern updatemeldingen voor gebruikers die geen kern kan updaten. "
+"Houdt u er rekening mee dat dit alleen een verschil maakt in multi-site "
+"installaties."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:408
+msgid "Only Disable Trackbacks/Pingbacks"
+msgstr "Alleen Uitschakelen Trackbacks / Pingbacks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:409
+msgid "Completely Disable XMLRPC"
+msgstr "Compleet Uitschakelen XMLRPC"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:411
+msgid "Disable XMLRPC"
+msgstr "Uitschakelen XMLRPC"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:414
+msgid "Off = XMLRPC is fully enabled and will function as normal."
+msgstr "Uit = XMLRPC is volledig ingeschakeld en zal functioneren als normaal."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:415
+msgid ""
+"Only Disable Trackbacks/Pingbacks = Your site will not be susceptible to "
+"denial of service attacks via the trackback/pingback feature. Other XMLRPC "
+"features will work as normal. You need this if you require features such as "
+"Jetpack or the WordPress Mobile app."
+msgstr ""
+"Alleen Uitschakelen Trackbacks / Pingbacks = Uw site zal niet vatbaar zijn "
+"voor denial of service-aanvallen via de functie trackback / pingback. Andere "
+"XMLRPC features zal normaal werken. Je hebt dit nodig voor functies zoals "
+"Jetpack of de WordPress Mobile app."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:416
+msgid ""
+"Completely Disable XMLRPC is the safest, XMLRPC will be completely disabled "
+"by your webserver. This will prevent features such as Jetpack that require "
+"XMLRPC from working."
+msgstr ""
+"Volledig uitschakelen XMLRPC is het veiligst, XMLRPC zal volledig worden "
+"uitgeschakeld door uw webserver. Dit zal tot effect hebben dat, functies "
+"zoals Jetpack dat XMLRPC nodig, niet meer kan functioneren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:437
+msgid "Remove the RSD (Really Simple Discovery) header. "
+msgstr "Verwijder de RSD (Really Simple Discovery) header. "
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:438
+msgid ""
+"Removes the RSD (Really Simple Discovery) header. If you don't integrate "
+"your blog with external XML-RPC services such as Flickr then the \"RSD\" "
+"function is pretty much useless to you."
+msgstr ""
+"Verwijderd de RSD (Really Simple Discovery) header.  Als u niet uw blog niet "
+"integreert met externe XML-RPC-diensten, zoals Flickr, dan is vervolgens de "
+"\"RSD\" functie is vrijwel nutteloos voor jou."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:460
+msgid "Disable File Editor"
+msgstr "Uitschakelen Bestand Bewerker"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:461
+msgid ""
+"Disables the file editor for plugins and themes requiring users to have "
+"access to the file system to modify files. Once activated you will need to "
+"manually edit theme and other files using a tool other than WordPress."
+msgstr ""
+"Schakelt de file bewerker voor plug-ins en thema's uit, dat gebruikers nodig "
+"hebben om toegang tot het bestandssysteem te verkrijgen om de bestanden te "
+"wijzigen. Eenmaal geactiveerd moet u thema's en andere bestanden met behulp "
+"van een andere dan WordPress hulpmiddel handmatig bewerken."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:483
+msgid "Remove WordPress Generator Meta Tag"
+msgstr "Verwijder WordPress Generator Meta Label"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:484
+msgid ""
+"Removes the <code>&lt;meta name=\"generator\" content=\"WordPress "
+"[version]\" /&gt;</code></pre> meta tag from your sites header. This process "
+"hides version information from a potential attacker making it more difficult "
+"to determine vulnerabilities."
+msgstr ""
+"Verwijderd de <code>&lt;meta name=\"generator\" content=\"WordPress "
+"[version]\" /&gt;</code></pre> meta label van uw sites header. Dit proces "
+"verbergt versiegegevens voor een potentiële aanvaller, zodat het moeilijker "
+"wordt om kwetsbaarheden te bepalen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:506
+msgid "Hide Plugin Update Notifications"
+msgstr "Verberg Thema Update Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:507
+msgid ""
+"Hides plugin update notifications from users who cannot update plugins. "
+"Please note that this only makes a difference in multi-site installations."
+msgstr ""
+"Verbergt plugin updatemeldingen voor gebruikers die geen plug-ins kan "
+"updaten. Houdt u er rekening mee dat dit alleen een verschil maakt in multi-"
+"site installaties."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:529
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1638
+msgid "Display Random Version"
+msgstr "Vertoon Willekeurige Versie"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:530
+msgid ""
+"Where a WordPress version must be displayed, it will display a random "
+"WordPress version and will remove the WordPress version completely where "
+"possible."
+msgstr ""
+"Wanneer een WordPress versie moet worden weergegeven, zal het een "
+"willekeurige WordPress versie weer te geven en verwijderd de WordPress "
+"versie volledig indien mogelijk."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:559
+msgid "undetermined. Please"
+msgstr "onbepaald. Gelieve"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:561
+msgid "check your homepage"
+msgstr "Controleer je Homepagina"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:562
+msgid "to see if you even need this feature"
+msgstr "om te zien of je deze functie nog nodig hebt"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:576
+msgid "Enqueue a safe version of jQuery"
+msgstr "In verwachting op een veilige versie van jQuery"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:577
+msgid ""
+"Remove the existing jQuery version used and replace it with a safe version "
+"(the version that comes default with WordPress)."
+msgstr ""
+"Verwijder de bestaande  gebruikte jQuery versie en vervang deze voor een "
+"veilige versie (de versie die standaard wordt geleverd met WordPress)."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:579
+msgid "Your current jQuery version is "
+msgstr "Je huidige jQuery versie is "
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:582
+msgid ""
+"Note that this only checks the homepage of your site and only for users who "
+"are logged in. This is done intentionally to save resources. If you think "
+"this is in error "
+msgstr ""
+"Merk op dat deze alleen de homepage van uw site controleert en alleen voor "
+"gebruikers die zijn ingelogd. Dit is opzettelijk gedaan om middelen te "
+"besparen. Als u denkt dat dit een fout is"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:584
+msgid "click here to check again."
+msgstr "Klik hier voor hercontrole."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:585
+msgid ""
+"This will open your homepage in a new window allowing the plugin to "
+"determine the version of jQuery actually being used. You can then come back "
+"here and reload this page to see your version."
+msgstr ""
+"Dit zal uw startpagina openen in een nieuw venster, waarin de plugin de "
+"versie van jQuery die daadwerkelijk wordt gebruikt te bepalen. U kunt dan "
+"hier terug te komen en de pagina verversen om uw versie te zien."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:606
+msgid "Hide Theme Update Notifications"
+msgstr "Verberg Thema Update Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:607
+msgid ""
+"Hides theme update notifications from users who cannot update themes. Please "
+"note that this only makes a difference in multi-site installations."
+msgstr ""
+"Verbergt thema updatemeldingen voor gebruikers die geen thema kan updaten. "
+"Houdt u er rekening mee dat dit alleen een verschil maakt in multi-site "
+"installaties."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:629
+msgid "Disable PHP in Uploads"
+msgstr "Uitschakelen PHP in Uploads"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:630
+msgid ""
+"Disable PHP execution in the uploads directory. This will prevent uploading "
+"of malicious scripts to uploads."
+msgstr ""
+"Uitschakelen PHP executie in de upload map. Dit zal het uploaden van "
+"kwaadaardige scripts voorkomen in de map Uploads."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:652
+msgid "Remove the Windows Live Writer header. "
+msgstr "Verwijder de Windows Live Writer header."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:653
+msgid ""
+"This is not needed if you do not use Windows Live Writer or other blogging "
+"clients that rely on this file."
+msgstr ""
+"Dit is niet nodig als je geen gebruik maakt van Windows Live Writer of "
+"andere blog cliënten die vertrouwen op dit bestand."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:684
+msgid "Rules to block access to WordPress specific files and wp-includes"
+msgstr ""
+"Regels om de toegang tot WordPress specifieke bestanden en wp-includes te "
+"blokkeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:695
+msgid "Rules to block access to WordPress specific files"
+msgstr "Regels om de toegang tot WordPress specifieke bestanden te blokkeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:728
+msgid "Rules to disable XML-RPC"
+msgstr "Regels om XML-RPC uit te schakelen"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:752
+msgid "Rules to disable directory browsing"
+msgstr "Regels voor uitschakelen mapnaam surfen"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:780
+msgid "Rules to protect wp-includes"
+msgstr "Regels voor bescherming wp-inhoud"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:794
+msgid "Rules to prevent php execution in uploads"
+msgstr "Regels die voorkomt PHP executie in Uploads"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:811
+msgid "Rules to block unneeded HTTP methods"
+msgstr "Regels om onnodige HTTP methodes te blokkeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:828
+msgid "Rules to block suspicious URIs"
+msgstr "Regels om verdacht URL's te blokkeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:882
+msgid "Rules to block foreign characters in URLs"
+msgstr "Regels voor vreemde tekens in URL's te blokkeren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:899
+msgid "Rules to help reduce spam"
+msgstr "Regels voor help spam te reduceren"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1041
+msgid "You are protecting common WordPress files from access."
+msgstr "Bescherm gemeenschappelijke WordPress bestanden van toegang."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1049
+msgid ""
+"You are not protecting common WordPress files from access. Click here to "
+"protect WordPress files."
+msgstr ""
+"U beschermt geen gemeenschappelijke WordPress bestanden van toegang. Klik "
+"hier om WordPress bestanden te beschermen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1063
+msgid "You have successfully disabled directory browsing on your site."
+msgstr "Je hebt met succes map surfen uitgeschakeld op uw site."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1071
+msgid ""
+"You have not disabled directory browsing on your site. Click here to prevent "
+"a user from seeing every file present in your WordPress site."
+msgstr ""
+"Je hebt map surfen niet uitgeschakeld op uw site. Klik hier om een ​​gebruiker "
+"te verhinderen te zien, alle aanwezige bestanden op je WordPress site."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1085
+msgid "You are blocking HTTP request methods you do not need."
+msgstr "Je blokkeert HTTP verzoekmethoden die u niet nodig hebt."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1093
+msgid ""
+"You are not blocking HTTP request methods you do not need. Click here to "
+"block extra HTTP request methods that WordPress should not normally need."
+msgstr ""
+"Je blokkeert niet HTTP verzoekmethoden die u niet nodig hebt. Klik hier om "
+"extra HTTP verzoekmethoden te blokkeren, die WordPress normaal niet nodig "
+"heeft."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1105
+msgid ""
+"Your WordPress site is blocking suspicious looking information in the URL."
+msgstr "Uw WordPress site blokkeert verdacht uitziende informatie in de URL."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1113
+msgid ""
+"Your WordPress site is not blocking suspicious looking information in the "
+"URL. Click here to block users from trying to execute code that they should "
+"not be able to execute."
+msgstr ""
+"Uw WordPress site blokkeert niet verdacht uitziende informatie in de URL. "
+"Klik hier om gebruikers te blokkeren die proberen om code, die ze niet "
+"zouden moeten kunnen uitvoeren, uit te voeren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1125
+msgid "Your WordPress site is blocking non-english characters in the URL."
+msgstr "Je WordPress site blokkeert van niet-Engels karakters in de URL."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1133
+msgid ""
+"Your WordPress site is not blocking non-english characters in the URL. Click "
+"here to fix this."
+msgstr ""
+"Je WordPress site blokkeert niet van niet-Engels karakters in de URL. Klik "
+"hier om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1145
+msgid "Your installation does not accept long URLs."
+msgstr "Uw installatie accepteert geen lange URL's."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1153
+msgid ""
+"Your installation accepts long (over 255 character) URLS. This can lead to "
+"vulnerabilities. Click here to fix this."
+msgstr ""
+"Uw installatie accepteert (meer dan 255 tekens) lange URL's. Dit kan leiden "
+"tot kwetsbaarheden. Klik hier om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1165
+msgid "Your wp-config.php and .htaccess files are not writeable."
+msgstr "Je wp-config.php en htaccess-bestanden zijn niet beschrijfbaar."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1173
+msgid ""
+"Your wp-config.php and .htaccess files are writeable. This can lead to "
+"vulnerabilities. Click here to fix this."
+msgstr ""
+"Je wp-config.php en htaccess-bestanden zijn beschrijfbaar. Dit kan leiden "
+"tot kwetsbaarheden. Klik hier om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1185
+msgid ""
+"Your WordPress installation is not telling every bot that you use WordPress."
+msgstr ""
+"Uw WordPress-installatie vertelt niet tegen elke bot, dat je WordPress "
+"gebruikt."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1193
+msgid ""
+"Your WordPress installation is telling every bot that you use WordPress with "
+"a special \"generator\" tag. Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie vertelt elke bot dat je WordPress gebruikt met een "
+"speciale \"generator\" label. Klik hier om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1205
+msgid ""
+"Your WordPress installation is not publishing the Windows Live Writer header."
+msgstr ""
+"Uw WordPress-installatie publiceert niet de Windows Live Writer header."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1213
+msgid ""
+"Your WordPress installation is publishing the Windows Live Writer header. "
+"Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie publiceert de Windows Live Writer header. Klik hier "
+"om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1225
+msgid ""
+"Your WordPress installation is not publishing the Really Simple Discovery "
+"(RSD) header."
+msgstr ""
+"Uw WordPress-installatie publiceert niet de Really Simple Discovery (RSD) "
+"header."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1233
+msgid ""
+"Your WordPress installation is publishing the Really Simple Discovery (RSD) "
+"header. Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie publiceert de Really Simple Discovery (RSD) header. "
+"Klik hier, om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1247
+msgid ""
+"Your WordPress installation is not telling users who cannot update themes "
+"about theme updates."
+msgstr ""
+"Uw WordPress-installatie verteld niet aan gebruikers die geen thema's kunnen "
+"updaten over thema updates."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1255
+msgid ""
+"Your WordPress installation is telling users who cannot update themes about "
+"theme updates. Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie verteld aan gebruikers die geen thema's kunnen "
+"updaten over thema updates. Klik hier, om te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1267
+msgid ""
+"Your WordPress installation is not telling users who cannot update plugins "
+"about plugin updates."
+msgstr ""
+"Uw WordPress-installatie verteld niet aan gebruikers die geen plug-ins "
+"kunnen updaten over plugin updates."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1275
+msgid ""
+"Your WordPress installation is telling users who cannot update plugins about "
+"plugin updates. Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie verteld aan gebruikers die geen plug-ins kunnen "
+"updaten over plugin updates. Klik hier, om te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1287
+msgid ""
+"Your WordPress installation is not telling users who cannot update WordPress "
+"core about WordPress core updates."
+msgstr ""
+"Uw WordPress-installatie verteld niet aan gebruikers die geen WordPress "
+"kunnen updaten over WordPress updates."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1295
+msgid ""
+"Your WordPress installation is telling users who cannot update WordPress "
+"core about WordPress core updates. Click here to fix this."
+msgstr ""
+"Uw WordPress-installatie verteld aan gebruikers die geen WordPress kunnen "
+"updaten over WordPress updates. Klik hier, om te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1309
+msgid ""
+"Your WordPress installation is not allowing users without a user agent to "
+"post comments."
+msgstr ""
+"Uw WordPress-installatie laat geen gebruikers toe die geen gebruikersprofiel "
+"hebben om reacties te plaatsen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1317
+msgid ""
+"Your WordPress installation is allowing users without a user agent to post "
+"comments. Fix this to reduce comment spam."
+msgstr ""
+"Uw WordPress-installatie laat gebruikers toe die geen gebruikersprofiel "
+"hebben om reacties te plaatsen. Los dit op, om spam te verminderen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1329
+msgid "Version information is obscured to all non admin users."
+msgstr ""
+"Versie informatie wordt verduisterd voor alle niet administrator gebruikers."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1337
+msgid ""
+"Users may still be able to get version information from various plugins and "
+"themes. Click here to fix this."
+msgstr ""
+"Gebruikers kunnen nog steeds in staat zijn om de versie informatie te "
+"krijgen van verschillende plug-ins en thema's. Klik hier om deze te "
+"repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1349
+msgid ""
+"Users cannot edit plugin and themes files directly from within the WordPress "
+"Dashboard."
+msgstr ""
+"Gebruikers kunnen plugin en thema-bestanden niet rechtstreeks bewerken "
+"vanuit het WordPress Dashboard."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1357
+msgid ""
+"Users can edit plugin and themes files directly from within the WordPress "
+"Dashboard. Click here to fix this."
+msgstr ""
+"Gebruikers kunnen plugin en thema-bestanden rechtstreeks bewerken vanuit het "
+"WordPress Dashboard. Klik hier om deze te repareren."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1369
+msgid "XML-RPC is not available on your WordPress installation."
+msgstr "XML-RPC is niet beschikbaar op uw WordPress-installatie."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1377
+msgid ""
+"XML-RPC is protecting you from the trackback and pingback attack but is "
+"still available on your site."
+msgstr ""
+"XML-RPC beschermt u tegen de trackback- en pingback aanval, maar is nog "
+"steeds beschikbaar op uw site."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1385
+msgid ""
+"XML-RPC is available on your WordPress installation. Attackers can use this "
+"feature to attack your site. Click here to disable access to XML-RPC."
+msgstr ""
+"XML-RPC is beschikbaar op uw WordPress-installatie. Aanvallers kunnen deze "
+"functie gebruiken om uw site aan te vallen. Klik hier om toegang tot XML-RPC "
+"uit te schakelen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1397
+msgid "Users cannot execute PHP from the uploads folder."
+msgstr "Gebruikers kunnen PHP niet uitvoeren vanuit de map Uploads."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1405
+msgid "Users can execute PHP from the uploads folder."
+msgstr "Gebruikers kunnen PHP uitvoeren vanuit de map Uploads."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1419
+msgid "The front page of your site is using a safe version of jQuery."
+msgstr "De voorpagina van uw site gebruikt een veilige versie van jQuery."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1427
+msgid ""
+"The front page of your site is not using a safe version of jQuery or the "
+"version of jQuery cannot be determined."
+msgstr ""
+"De voorpagina van uw site gebruikt geen veilige versie van jQuery of de "
+"versie van jQuery kan niet worden bepaald."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1435
+msgid ""
+"Your version of jQuery has not been determined. Load your homepage while "
+"logged in to determine the version of jQuery you are using"
+msgstr ""
+"Uw versie van jQuery is nog niet vastgesteld. Laad je homepagina, "
+"ondertussen, blijf aangemeld om de versie van jQuery die u gebruikt te "
+"bepalen"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1447
+msgid "User's nicknames are different from their display name."
+msgstr "Bijnamen gebruiker zijn verschillend van hun weergavenaam."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1455
+msgid ""
+"User nicknames may be the same as their login name. This means their login "
+"user name may be publicly available throughout the site."
+msgstr ""
+"Bijnamen gebruiker kan hetzelfde zijn als hun inlognaam zijn. Dit betekent "
+"dat hun inlognaam de gebruikersnaam is en  kan voor de hele site voor het "
+"publiek beschikbaar zijn."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1467
+msgid ""
+"Your login page is not giving out unnecessary information upon failed login."
+msgstr ""
+"Uw inlogpagina geeft geen onnodige informatie weer over mislukte "
+"inlogpogingen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1475
+msgid ""
+"Your login page is giving out unnecessary information upon failed login."
+msgstr ""
+"Uw inlogpagina geeft onnodige informatie weer over mislukte inlogpogingen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1487
+msgid "User profiles for users without content are not publicly available."
+msgstr ""
+"Gebruikersprofielen voor gebruikers zonder inhoud zijn niet publiekelijk "
+"beschikbaar."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1495
+msgid ""
+"User profiles for users without content are publicly available. This can "
+"make it relatively easy to gain the username of important users."
+msgstr ""
+"Gebruikersprofielen voor gebruikers zonder inhoud zijn openbaar. Dit kan het "
+"relatief eenvoudig zijn om de gebruikersnaam van belangrijke gebruikers te "
+"krijgen."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1516
+msgid "Configure Server Tweaks"
+msgstr "Configureer Server Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1523
+msgid "Configure WordPress Tweaks"
+msgstr "Configureer WordPress Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1530
+msgid "Configure Multisite Tweaks"
+msgstr "Configureer Multisite Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1538
+msgid "System Files"
+msgstr "Systeem Bestanden"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1548
+msgid "Directory Browsing"
+msgstr "Mapnaam Surfen"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1558
+msgid "Request Methods"
+msgstr "Aanvraag Methodes"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1566
+msgid "Suspicious Query Strings"
+msgstr "Verdachte Query Strings"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1574
+msgid "Non-English Characters"
+msgstr "Geen Engelse Karakters"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1582
+msgid "Long URL Strings"
+msgstr "Lange URL Strings"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1590
+msgid "File Writing Permissions"
+msgstr "Bestand Schrijf Permissies"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1598
+msgid "Uploads"
+msgstr "Uploads"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1606
+msgid "Generator Meta Tag"
+msgstr "Generator Meta Label"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1614
+msgid "Windows Live Writer Header"
+msgstr " Windows Live Writer Header."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1622
+msgid "EditURI Header"
+msgstr "EditURI Header"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1630
+msgid "Comment Spam"
+msgstr "Spam Reactie"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1646
+msgid "File Editor"
+msgstr "Bestand Bewerker"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1654
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1662
+msgid "Replace jQuery With a Safe Version"
+msgstr "Vervang jQuery Met een Veilige Versie"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1670
+msgid "Login Error Messages"
+msgstr "Inlog Fout Berichten"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1678
+msgid "Force Unique Nickname"
+msgstr "Forceer Unieke Gebruikersnaam"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1686
+msgid "Disable Extra User Archives"
+msgstr "Uitschakelen Extra Gebruiker Archief"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1696
+msgid "Theme Update Notifications"
+msgstr "Thema Update Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1704
+msgid "Plugin Update Notifications"
+msgstr "Plugin Update Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1712
+msgid "Core Update Notifications"
+msgstr "KernUpdate Notificaties"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1736
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1759
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1782
+msgid ""
+"These are advanced settings that may be utilized to further strengthen the "
+"security of your WordPress site."
+msgstr ""
+"Dit zijn geavanceerde instellingen die kunnen worden gebruikt om verdere "
+"versterking van de beveiliging van uw WordPress site."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1737
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1760
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1783
+msgid ""
+"Note: These settings are listed as advanced because they block common forms "
+"of attacks but they can also block legitimate plugins and themes that rely "
+"on the same techniques. When activating the settings below, we recommend "
+"enabling them one by one to test that everything on your site is still "
+"working as expected."
+msgstr ""
+"Opmerking: Deze instellingen zijn geklasseerd als geavanceerd, omdat ze "
+"veelvoorkomende vormen van aanvallen blokkeren, maar ze kunnen ook legitieme "
+"plug-ins en thema's blokkeren, die van dezelfde technieken gebruik maken. "
+"Bij het activeren van de onderstaande instellingen, raden wij aan, ze één "
+"voor één te activeren, te testen dat alles op uw site naar verwachting nog "
+"werkt."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1738
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1761
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:1784
+msgid ""
+"Remember, some of these settings might conflict with other plugins or "
+"themes, so test your site after enabling each setting."
+msgstr ""
+"Vergeet niet, dat sommige van deze instellingen zou kunnen conflicteren met "
+"andere plug-ins of thema's, dus test uw site na het inschakelen van elke "
+"instelling."
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:2018
+msgid "Server Tweaks"
+msgstr "Server Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks-admin.php:2068
+msgid "Multisite Tweaks"
+msgstr "Multisite Tweaks"
+
+#: modules/free/tweaks/class-itsec-tweaks.php:180
+msgid ""
+"Your Nickname must be different than your login name. Please choose a "
+"different Nickname."
+msgstr "Uw naam moet anders zijn dan je gebruikersnaam. Kies een andere naam."
+
+#: modules/free/tweaks/class-itsec-tweaks.php:198
+msgid ""
+"A Nickname is required. Please choose a nickname or fill out your first and "
+"last name."
+msgstr ""
+"Een gebruikersnaam is verplicht. Kies een gebruikersnaam of vul in uw voor-"
+"en achternaam."
+
+#. Plugin URI of the plugin/theme
+msgid "http://ithemes.com/security"
+msgstr "http://ithemes.com/security"
+
+#. Description of the plugin/theme
+msgid ""
+"Protect your WordPress site by hiding vital areas of your site, protecting "
+"access to important files, preventing brute-force login attempts, detecting "
+"attack attempts and more."
+msgstr ""
+"Bescherm je WordPress site door het verbergen van vitale gebieden van uw "
+"site, de bescherming voor toegang tot belangrijke bestanden, het voorkomen "
+"van brute forceer inlogpogingen, detecteren van aanval pogingen en meer."
+
+#. Author of the plugin/theme
+msgid "iThemes.com"
+msgstr "iThemes.com"
+
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com"
+msgstr "http://ithemes.com"
